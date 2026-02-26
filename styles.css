@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0 1.5vw;
+  background: #f8f8f6;
+  color: #1a1a1a;
+  font-family: 'EB Garamond', serif;
+  font-size: 13px;
+  line-height: 1.2;
+  overflow-x: hidden;
+}
+
+.page-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 0.65rem;
+  padding: 0.5rem 0 2rem;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0 0 0.4rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+p {
+  margin: 0 0 0.4rem;
+}
+
+.block-full,
+.block-wide,
+.block-narrow,
+.block-nested,
+.block-vertical,
+.block-rotate-90,
+.block-invert,
+.block-margin {
+  border: 1px solid rgba(26, 26, 26, 0.16);
+  padding: 0.5rem;
+  min-height: 120px;
+  overflow: hidden;
+  background: rgba(248, 248, 246, 0.7);
+}
+
+.block-full { grid-column: 1 / -1; }
+.block-wide { grid-column: span 8; }
+.block-narrow { grid-column: span 4; }
+.block-nested { grid-column: span 6; margin-left: 1vw; }
+.block-vertical { grid-column: span 3; writing-mode: vertical-rl; text-orientation: mixed; max-height: 620px; }
+.block-rotate-90 { grid-column: span 3; transform: rotate(-1.8deg); transform-origin: center; }
+.block-invert { grid-column: span 5; background: #1a1a1a; color: #f5f2eb; }
+.block-margin { grid-column: span 4; margin-top: 4rem; }
+
+.anchor-block {
+  margin-bottom: 0.35rem;
+}
+
+.figure-block h2 {
+  font-size: 1.15rem;
+}
+
+.image-block img {
+  width: 100%;
+  filter: grayscale(100%) contrast(115%) sepia(12%);
+  display: block;
+}
+
+.image-block figcaption {
+  font-size: 12px;
+  margin-top: 0.3rem;
+}
