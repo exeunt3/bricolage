@@ -37,6 +37,26 @@ const ARCHIVAL_IMAGES = [
   { src: './assets/plates/plate-5.svg', title: 'Collaged index specimen' }
 ];
 
+const EXTERNAL_REFERENCE_IMAGES = {
+  'giordano-bruno': [
+    { src: 'https://upload.wikimedia.org/wikipedia/commons/c/c4/Giordano_Bruno.jpg', title: 'Giordano Bruno portrait (Wikimedia Commons)' },
+    { src: 'https://upload.wikimedia.org/wikipedia/commons/6/6d/Statue_of_Giordano_Bruno_%28Campo_de%27_Fiori%2C_Rome%29.jpg', title: 'Giordano Bruno statue, Campo de’ Fiori (Wikimedia Commons)' }
+  ],
+  spinoza: [
+    { src: 'https://upload.wikimedia.org/wikipedia/commons/8/8f/Benedictus_de_Spinoza.jpg', title: 'Baruch Spinoza portrait (Wikimedia Commons)' },
+    { src: 'https://upload.wikimedia.org/wikipedia/commons/5/58/Spinoza_Ethica.jpg', title: 'Title page, Spinoza’s *Ethica* (Wikimedia Commons)' }
+  ],
+  'simone-weil': [
+    { src: 'https://upload.wikimedia.org/wikipedia/commons/3/34/Simone_Weil_1921.png', title: 'Simone Weil portrait (Wikimedia Commons)' }
+  ],
+  kepler: [
+    { src: 'https://upload.wikimedia.org/wikipedia/commons/d/d4/Johannes_Kepler_1610.jpg', title: 'Johannes Kepler portrait (Wikimedia Commons)' }
+  ],
+  whitehead: [
+    { src: 'https://upload.wikimedia.org/wikipedia/commons/5/58/Alfred_North_Whitehead.jpg', title: 'Alfred North Whitehead portrait (Wikimedia Commons)' }
+  ]
+};
+
 const LAYOUT_CLASSES = ['block-wide', 'block-narrow', 'block-nested', 'block-vertical', 'block-rotate-90', 'block-invert', 'block-margin'];
 const DISRUPTION_CLASSES = ['block-vertical', 'block-rotate-90', 'block-margin', 'block-nested', 'block-invert'];
 const PROHIBITED_PATTERNS = [
@@ -215,8 +235,12 @@ function renderFigureBlock(figure, corpus, layoutClass) {
 function renderImageBlock(image, layoutClass) {
   const figure = document.createElement('figure');
   figure.className = `image-block ${layoutClass}`;
-  figure.innerHTML = `<img src="${image.src}" alt="${image.title}" loading="eager" /><figcaption>${image.title}</figcaption>`;
+  figure.innerHTML = `<img src="${image.src}" alt="${image.title}" loading="eager" referrerpolicy="no-referrer" /><figcaption>${image.title}</figcaption>`;
   return figure;
+}
+
+function externalImagesForFigures(figures) {
+  return figures.flatMap((figure) => EXTERNAL_REFERENCE_IMAGES[figure.id] || []);
 }
 
 async function renderBricolage() {
@@ -240,7 +264,12 @@ async function renderBricolage() {
   }
 
   const imageCount = randomInt(3, 5);
-  const images = sample(ARCHIVAL_IMAGES, imageCount).map((item) => ({ type: 'image', item }));
+  const localImageCount = Math.max(2, imageCount - 1);
+  const localImages = sample(ARCHIVAL_IMAGES, localImageCount);
+  const referencePool = externalImagesForFigures(chosenFigures);
+  const shouldIncludeReference = referencePool.length > 0 && Math.random() < 0.7;
+  const referenceImages = shouldIncludeReference ? sample(referencePool, 1) : [];
+  const images = [...localImages, ...referenceImages].map((item) => ({ type: 'image', item }));
 
   const interleaved = [...fragments, ...images].sort(() => Math.random() - 0.5);
 
