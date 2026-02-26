@@ -59,9 +59,19 @@ const PROHIBITED_PATTERNS = [
   /\bIt is important to note\b/i,
   /\bUltimately\b/i,
   /\bAt its core\b/i,
+  /\bIn conclusion\b/i,
+  /\bTo conclude\b/i,
+  /\bIn summary\b/i,
+  /\bTo summarize\b/i,
+  /\bYou can see\b/i,
+  /\bLet'?s\b/i,
+  /\bbasically\b/i,
+  /\bsimply\b/i,
   /\bIt is not .*?, it is\b/i,
   /\bNot .*? but\b/i
 ];
+
+const SENTENCE_SPLIT = /[.!?]+/;
 
 function randomInt(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -111,40 +121,84 @@ function weightedFigureSelection(figures, min = 4, max = 8) {
   return figures.filter((f) => chosen.has(f.id));
 }
 
-function repeatWords(base, targetWords) {
-  const tokens = [];
-  while (tokens.length < targetWords) {
-    tokens.push(...base.split(/\s+/));
+function sentenceCount(text) {
+  return text.split(SENTENCE_SPLIT).map((s) => s.trim()).filter(Boolean).length;
+}
+
+function buildDenseParagraph(figure, targetWords, seeds) {
+  const opening = `${figure.name} persists as a stratigraphic aperture rather than a biography, because archival residue, doctrinal rupture, and speculative method remain contemporaneous when read inside planetary duration.`;
+  const connectors = [
+    'therefore',
+    'meanwhile',
+    'consequently',
+    'at the same time',
+    'under this pressure',
+    'within this manifold'
+  ];
+
+  const sentences = [opening];
+  let words = opening.split(/\s+/).length;
+  let cursor = 0;
+
+  while (words < targetWords) {
+    const seed = seeds[cursor % seeds.length];
+    const connector = connectors[cursor % connectors.length];
+    const sentence = `${seed} ${connector}, the figure is encountered as a moving facet where metaphysical vocabulary, technical craft, and political remainder continue to refract one another across centuries without offering terminal resolution.`;
+    sentences.push(sentence);
+    words += sentence.split(/\s+/).length;
+    cursor += 1;
   }
-  return tokens.slice(0, targetWords).join(' ');
+
+  return sentences.join(' ');
 }
 
 function generateFigureCorpus(figure) {
-  const biographicalWords = randomInt(610, 860);
-  const facetWords = randomInt(420, 680);
-  const driftWords = randomInt(220, 380);
+  const biographicalWords = randomInt(280, 420);
+  const facetWords = randomInt(220, 340);
 
   const biographicalSeed = `${figure.name} is positioned here as a temporal facet through which archives, laboratory notebooks, liturgical murmurs, and insurrectionary residues remain copresent, while the century in which the figure breathed only partially indexes the pressure being carried, because the lexical and symbolic traces migrate across eras and continue to refract technical, theological, and aesthetic strata that had not yet become historically adjacent.`;
   const facetSeed = `The designated hyperobject vector for ${figure.name} leans toward immanence as distributed causality, where each concept arrives with sediment already attached, and where the philosophical instrument cannot isolate pure origin because every claim bears geological drag, political ash, and spectral rehearsal from unrealized social worlds preserved as latent amplitude.`;
   const driftSeed = `In the occult drift fragment for ${figure.name}, diagrams tilt, coordinates loosen, and doctrinal boundaries begin to shear as if the page itself were a mineral fault, leaving an utterance that neither resolves nor stabilizes, yet continues to emit pressure through recursive citation and oblique resonance.`;
 
   return {
-    biographical: repeatWords(biographicalSeed, biographicalWords),
-    facet: repeatWords(facetSeed, facetWords),
-    drift: repeatWords(driftSeed, driftWords),
+    paragraphA: buildDenseParagraph(figure, biographicalWords, [biographicalSeed, facetSeed]),
+    paragraphB: buildDenseParagraph(figure, facetWords, [driftSeed, facetSeed]),
     shard: `${figure.name}: "A facet touched in one century returns as tectonic rumor in another, still carrying unfinished charge."`
   };
 }
 
 function sentenceLengthAverage(text) {
-  const sentences = text.split(/[.!?]+/).map((s) => s.trim()).filter(Boolean);
+  const sentences = text.split(SENTENCE_SPLIT).map((s) => s.trim()).filter(Boolean);
   if (!sentences.length) return 0;
   const words = sentences.map((s) => s.split(/\s+/).filter(Boolean).length);
   return words.reduce((a, b) => a + b, 0) / words.length;
 }
 
+function longSentenceRatio(text, threshold = 28) {
+  const sentences = text.split(SENTENCE_SPLIT).map((s) => s.trim()).filter(Boolean);
+  if (!sentences.length) return 0;
+  const longSentences = sentences.filter((sentence) => sentence.split(/\s+/).filter(Boolean).length >= threshold).length;
+  return longSentences / sentences.length;
+}
+
+function denseClauseRatio(text, minCommas = 2) {
+  const sentences = text.split(SENTENCE_SPLIT).map((s) => s.trim()).filter(Boolean);
+  if (!sentences.length) return 0;
+  const dense = sentences.filter((sentence) => (sentence.match(/,/g) || []).length >= minCommas).length;
+  return dense / sentences.length;
+}
+
 function proseIsValid(text) {
-  return sentenceLengthAverage(text) > 25 && PROHIBITED_PATTERNS.every((rx) => !rx.test(text));
+  const average = sentenceLengthAverage(text);
+  const longRatio = longSentenceRatio(text);
+  const clauseRatio = denseClauseRatio(text);
+  return (
+    average > 25
+    && longRatio >= 0.6
+    && clauseRatio >= 0.5
+    && sentenceCount(text) >= 6
+    && PROHIBITED_PATTERNS.every((rx) => !rx.test(text))
+  );
 }
 
 function chooseLayoutClass(state) {
@@ -199,26 +253,12 @@ function buildAdaptiveFigureParagraphs(corpus) {
 function renderFigureBlock(figure, corpus, layoutClass) {
   const block = document.createElement('section');
   block.className = `figure-block ${layoutClass}`;
-
-  const heading = document.createElement('h2');
-  heading.textContent = figure.name;
-  block.appendChild(heading);
-
-  const paragraphs = buildAdaptiveFigureParagraphs(corpus);
-  paragraphs.forEach((text) => {
-    const paragraph = document.createElement('p');
-    paragraph.textContent = text;
-    block.appendChild(paragraph);
-  });
-
-  if (corpus.shard) {
-    const shardLine = document.createElement('p');
-    const emphasis = document.createElement('em');
-    emphasis.textContent = corpus.shard;
-    shardLine.appendChild(emphasis);
-    block.appendChild(shardLine);
-  }
-
+  block.innerHTML = `
+    <h2>${figure.name}</h2>
+    <p>${corpus.paragraphA}</p>
+    <p>${corpus.paragraphB}</p>
+    <p><em>${corpus.shard}</em></p>
+  `;
   return block;
 }
 
@@ -240,15 +280,11 @@ async function bootstrap() {
   const fragments = [];
   for (const figure of chosenFigures) {
     const corpus = generateFigureCorpus(figure);
-    const mergedText = `${corpus.biographical} ${corpus.facet} ${corpus.drift}`;
+    const mergedText = `${corpus.paragraphA} ${corpus.paragraphB}`;
     if (!proseIsValid(mergedText)) {
       continue;
     }
     fragments.push({ type: 'figure', figure, corpus });
-  }
-
-  while (layoutState.disruptionCount < 3 && fragments.length) {
-    fragments.push(fragments[Math.floor(Math.random() * fragments.length)]);
   }
 
   const imageCount = randomInt(2, 5);
