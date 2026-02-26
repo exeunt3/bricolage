@@ -193,10 +193,6 @@ async function bootstrap() {
     fragments.push({ type: 'figure', figure, corpus });
   }
 
-  while (layoutState.disruptionCount < 3 && fragments.length) {
-    fragments.push(fragments[Math.floor(Math.random() * fragments.length)]);
-  }
-
   const imageCount = randomInt(2, 5);
   const images = sample(ARCHIVAL_IMAGES, imageCount).map((item) => ({ type: 'image', item }));
 
