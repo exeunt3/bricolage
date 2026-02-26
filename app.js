@@ -60,8 +60,47 @@ const PROHIBITED_PATTERNS = [
   /\bUltimately\b/i,
   /\bAt its core\b/i,
   /\bIt is not .*?, it is\b/i,
-  /\bNot .*? but\b/i
+  /\bNot .*? but\b/i,
+  /\blet'?s\b/i,
+  /\byou(?:'re| are)\b/i,
+  /\bjourney\b/i,
+  /\bgame[- ]changer\b/i,
+  /\bstate[- ]of[- ]the[- ]art\b/i,
+  /\bcutting[- ]edge\b/i,
+  /\bin conclusion\b/i,
+  /\bto conclude\b/i,
+  /\bin summary\b/i,
+  /\bto summarize\b/i,
+  /\boverall\b/i,
+  /\bto sum up\b/i
 ];
+
+const TONE_MARKER_PATTERNS = [
+  /\bfrankly\b/i,
+  /\bbelieve me\b/i,
+  /\bof course\b/i,
+  /\bas you can see\b/i,
+  /\bthis means that\b/i,
+  /\bunlock\b/i,
+  /\bseamless\b/i,
+  /\btransformative\b/i,
+  /\bnext[- ]level\b/i
+];
+
+const CLOSURE_PATTERNS = [
+  /\bin the end\b/i,
+  /\ball things considered\b/i,
+  /\bthe takeaway\b/i,
+  /\bthe key point\b/i,
+  /\bwhat this shows\b/i,
+  /\btherefore\b/i,
+  /\bthus\b/i,
+  /\bfinally\b/i,
+  /\bwe can conclude\b/i
+];
+
+const BULLET_LIKE_PATTERN = /^\s*(?:[-*•]|\d+[.)])\s+/m;
+const MAX_PARAGRAPH_COUNT = 4;
 
 function randomInt(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -143,8 +182,61 @@ function sentenceLengthAverage(text) {
   return words.reduce((a, b) => a + b, 0) / words.length;
 }
 
+function normalizedParagraphs(text) {
+  return String(text || '')
+    .split(/\n\s*\n+/)
+    .map((paragraph) => paragraph.trim())
+    .filter(Boolean);
+}
+
+function hasDenseSentenceLength(text) {
+  return sentenceLengthAverage(text) > 25;
+}
+
+function hasNoProhibitedPatterns(text) {
+  return PROHIBITED_PATTERNS.every((rx) => !rx.test(text));
+}
+
+function hasNoToneMarkers(text) {
+  return TONE_MARKER_PATTERNS.every((rx) => !rx.test(text));
+}
+
+function hasNoTidyClosure(text) {
+  const paragraphs = normalizedParagraphs(text);
+  if (!paragraphs.length) return false;
+  const tail = paragraphs[paragraphs.length - 1];
+  return CLOSURE_PATTERNS.every((rx) => !rx.test(tail));
+}
+
+function hasMinimalParagraphBreaks(text) {
+  const paragraphs = normalizedParagraphs(text);
+  if (!paragraphs.length) return false;
+  if (paragraphs.length > MAX_PARAGRAPH_COUNT) return false;
+  return paragraphs.every((paragraph) => paragraph.split(/\s+/).filter(Boolean).length >= 35);
+}
+
+function avoidsBulletLikeProse(text) {
+  return !BULLET_LIKE_PATTERN.test(text);
+}
+
 function proseIsValid(text) {
-  return sentenceLengthAverage(text) > 25 && PROHIBITED_PATTERNS.every((rx) => !rx.test(text));
+  const safeText = String(text || '').trim();
+  if (!safeText) return false;
+
+  return [
+    hasDenseSentenceLength,
+    hasNoProhibitedPatterns,
+    hasNoToneMarkers,
+    hasNoTidyClosure,
+    hasMinimalParagraphBreaks,
+    avoidsBulletLikeProse
+  ].every((validator) => {
+    try {
+      return validator(safeText);
+    } catch {
+      return false;
+    }
+  });
 }
 
 function chooseLayoutClass(state) {
