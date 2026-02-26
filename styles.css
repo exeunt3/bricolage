@@ -1,12 +1,69 @@
+:root {
+  --paper: #f8f8f4;
+  --ink: #1c1b18;
+  --line: rgba(28, 27, 24, 0.2);
+}
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0 1.5vw;
-  background: #f8f8f6;
-  color: #1a1a1a;
+  background: var(--paper);
+  color: var(--ink);
   font-family: 'EB Garamond', serif;
   font-size: 13px;
   line-height: 1.2;
   overflow-x: hidden;
+}
+
+.is-hidden {
+  display: none !important;
+}
+
+.intro-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(10, 10, 10, 0.58);
+  display: grid;
+  place-items: center;
+  padding: 3rem;
+  z-index: 20;
+}
+
+.intro-card {
+  width: min(980px, 94vw);
+  max-height: 85vh;
+  overflow: auto;
+  border: 1px solid rgba(248, 248, 244, 0.45);
+  background: rgba(24, 24, 22, 0.93);
+  color: #f8f8f4;
+  padding: 2.25rem;
+  box-shadow: 0 20px 55px rgba(0, 0, 0, 0.45);
+}
+
+.intro-card h1 {
+  font-size: clamp(2.1rem, 6vw, 4.5rem);
+  margin: 0 0 1rem;
+  letter-spacing: 0.06em;
+}
+
+.intro-card p {
+  font-size: clamp(1rem, 2.1vw, 1.45rem);
+  line-height: 1.3;
+  margin: 0 0 1rem;
+}
+
+#enter-site {
+  border: 1px solid rgba(248, 248, 244, 0.85);
+  color: #f8f8f4;
+  background: transparent;
+  font-family: inherit;
+  font-size: 1.1rem;
+  padding: 0.65rem 1.1rem;
+  cursor: pointer;
 }
 
 .page-grid {
@@ -14,60 +71,99 @@ body {
   display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr));
   gap: 0.65rem;
-  padding: 0.5rem 0 2rem;
+  padding: 0.75rem 0 2rem;
 }
 
-h1,
-h2,
-h3 {
-  margin: 0 0 0.4rem;
-  font-weight: 500;
-  letter-spacing: 0.01em;
-}
-
-p {
-  margin: 0 0 0.4rem;
-}
-
-.block-full,
-.block-wide,
-.block-narrow,
-.block-nested,
-.block-vertical,
-.block-rotate-90,
-.block-invert,
+.figure-block,
+.image-block,
 .block-margin {
-  border: 1px solid rgba(26, 26, 26, 0.16);
+  border: 1px solid var(--line);
   padding: 0.5rem;
-  min-height: 120px;
+  min-height: 150px;
   overflow: hidden;
-  background: rgba(248, 248, 246, 0.7);
+  background: rgba(248, 248, 244, 0.82);
 }
 
 .block-full { grid-column: 1 / -1; }
 .block-wide { grid-column: span 8; }
 .block-narrow { grid-column: span 4; }
 .block-nested { grid-column: span 6; margin-left: 1vw; }
-.block-vertical { grid-column: span 3; writing-mode: vertical-rl; text-orientation: mixed; max-height: 620px; }
+.block-vertical { grid-column: span 3; writing-mode: vertical-rl; text-orientation: mixed; max-height: 690px; }
 .block-rotate-90 { grid-column: span 3; transform: rotate(-1.8deg); transform-origin: center; }
-.block-invert { grid-column: span 5; background: #1a1a1a; color: #f5f2eb; }
+.block-invert { grid-column: span 5; background: #1b1a19; color: #f6f2e9; }
 .block-margin { grid-column: span 4; margin-top: 4rem; }
 
-.anchor-block {
-  margin-bottom: 0.35rem;
+.figure-block h2 {
+  margin: 0 0 0.3rem;
+  font-size: 1.18rem;
+  letter-spacing: 0.02em;
 }
 
-.figure-block h2 {
-  font-size: 1.15rem;
+.prose-collage {
+  position: relative;
+  min-height: 360px;
+  border: 1px solid rgba(28, 27, 24, 0.15);
+  background: linear-gradient(rgba(255,255,255,0.35), rgba(255,255,255,0.1));
+}
+
+.prose-main {
+  column-count: 2;
+  column-gap: 0.8rem;
+  padding: 0.45rem;
+}
+
+.prose-main p {
+  margin: 0 0 0.35rem;
+}
+
+.prose-overlay {
+  position: absolute;
+  border: 1px solid rgba(28, 27, 24, 0.55);
+  background: rgba(247, 244, 235, 0.92);
+  padding: 0.28rem;
+  font-size: 11.5px;
+  line-height: 1.15;
+  max-width: 45%;
+  box-shadow: 0 2px 0 rgba(0,0,0,0.08);
+}
+
+.prose-overlay p {
+  margin: 0;
+}
+
+.prose-overlay.left {
+  top: 8%;
+  left: 6%;
+  transform: rotate(-1.7deg);
+}
+
+.prose-overlay.right {
+  bottom: 8%;
+  right: 6%;
+  transform: rotate(1.9deg);
+}
+
+.vertical-ribbon {
+  position: absolute;
+  right: 2%;
+  top: 8%;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size: 11px;
+  letter-spacing: 0.02em;
+  border-left: 1px solid rgba(28, 27, 24, 0.5);
+  padding-left: 0.2rem;
+  max-height: 82%;
+  overflow: hidden;
 }
 
 .image-block img {
   width: 100%;
-  filter: grayscale(100%) contrast(115%) sepia(12%);
   display: block;
+  background: #ece7db;
 }
 
 .image-block figcaption {
-  font-size: 12px;
-  margin-top: 0.3rem;
+  font-size: 11.5px;
+  margin-top: 0.28rem;
 }
