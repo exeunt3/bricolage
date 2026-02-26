@@ -155,16 +155,70 @@ function chooseLayoutClass(state) {
   return chosen;
 }
 
+function wordCount(text) {
+  return String(text || '').split(/\s+/).filter(Boolean).length;
+}
+
+function buildAdaptiveFigureParagraphs(corpus) {
+  const sections = [corpus.biographical, corpus.facet, corpus.drift].filter(Boolean);
+  const totalWords = sections.reduce((sum, section) => sum + wordCount(section), 0);
+
+  const paragraphTarget = totalWords < 900 ? 1 : totalWords < 1700 ? 2 : 3;
+  const targetWordsPerParagraph = totalWords / paragraphTarget;
+
+  const paragraphs = [];
+  let current = [];
+  let currentWords = 0;
+
+  sections.forEach((section, index) => {
+    const sectionWords = wordCount(section);
+    const remainingSections = sections.length - index;
+    const remainingParagraphSlots = paragraphTarget - paragraphs.length;
+    const shouldBreakBeforeAdding =
+      current.length > 0 &&
+      currentWords >= targetWordsPerParagraph &&
+      remainingSections >= remainingParagraphSlots;
+
+    if (shouldBreakBeforeAdding) {
+      paragraphs.push(current.join(' '));
+      current = [];
+      currentWords = 0;
+    }
+
+    current.push(section);
+    currentWords += sectionWords;
+  });
+
+  if (current.length > 0) {
+    paragraphs.push(current.join(' '));
+  }
+
+  return paragraphs;
+}
+
 function renderFigureBlock(figure, corpus, layoutClass) {
   const block = document.createElement('section');
   block.className = `figure-block ${layoutClass}`;
-  block.innerHTML = `
-    <h2>${figure.name}</h2>
-    <p>${corpus.biographical}</p>
-    <p>${corpus.facet}</p>
-    <p>${corpus.drift}</p>
-    <p><em>${corpus.shard}</em></p>
-  `;
+
+  const heading = document.createElement('h2');
+  heading.textContent = figure.name;
+  block.appendChild(heading);
+
+  const paragraphs = buildAdaptiveFigureParagraphs(corpus);
+  paragraphs.forEach((text) => {
+    const paragraph = document.createElement('p');
+    paragraph.textContent = text;
+    block.appendChild(paragraph);
+  });
+
+  if (corpus.shard) {
+    const shardLine = document.createElement('p');
+    const emphasis = document.createElement('em');
+    emphasis.textContent = corpus.shard;
+    shardLine.appendChild(emphasis);
+    block.appendChild(shardLine);
+  }
+
   return block;
 }
 
