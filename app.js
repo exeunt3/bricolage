@@ -30,26 +30,11 @@ Never explain metaphors.
 Never conclude cleanly.`;
 
 const ARCHIVAL_IMAGES = [
-  {
-    src: 'https://upload.wikimedia.org/wikipedia/commons/0/08/Robert_Fludd_Utriusque_Cosmi_Historia.jpg',
-    caption: 'Robert Fludd, Utriusque Cosmi Historia, plate fragment.'
-  },
-  {
-    src: 'https://upload.wikimedia.org/wikipedia/commons/4/4e/Athanasius_Kircher_Ars_Magna_Lucis_et_Umbrae.png',
-    caption: 'Athanasius Kircher, Ars Magna Lucis et Umbrae, diagram.'
-  },
-  {
-    src: 'https://upload.wikimedia.org/wikipedia/commons/c/c8/Geological_cross_section_1815.jpg',
-    caption: 'Nineteenth-century geological cross-section.'
-  },
-  {
-    src: 'https://upload.wikimedia.org/wikipedia/commons/4/49/Kepler_mysterium_cosmographicum.jpg',
-    caption: 'Kepler cosmographic solids, archival reproduction.'
-  },
-  {
-    src: 'https://upload.wikimedia.org/wikipedia/commons/4/4b/Blake_Newton_William_Blake.jpg',
-    caption: 'William Blake, Newton, public-domain plate reproduction.'
-  }
+  { src: './assets/plates/plate-1.svg', title: 'Stratified marginal plate' },
+  { src: './assets/plates/plate-2.svg', title: 'Recursive citation grid' },
+  { src: './assets/plates/plate-3.svg', title: 'Vertical lexicon band' },
+  { src: './assets/plates/plate-4.svg', title: 'Fractured doctrinal pane' },
+  { src: './assets/plates/plate-5.svg', title: 'Collaged index specimen' }
 ];
 
 const LAYOUT_CLASSES = ['block-wide', 'block-narrow', 'block-nested', 'block-vertical', 'block-rotate-90', 'block-invert', 'block-margin'];
@@ -209,55 +194,20 @@ function chooseLayoutClass(state) {
   return chosen;
 }
 
-function wordCount(text) {
-  return String(text || '').split(/\s+/).filter(Boolean).length;
-}
-
-function buildAdaptiveFigureParagraphs(corpus) {
-  const sections = [corpus.biographical, corpus.facet, corpus.drift].filter(Boolean);
-  const totalWords = sections.reduce((sum, section) => sum + wordCount(section), 0);
-
-  const paragraphTarget = totalWords < 900 ? 1 : totalWords < 1700 ? 2 : 3;
-  const targetWordsPerParagraph = totalWords / paragraphTarget;
-
-  const paragraphs = [];
-  let current = [];
-  let currentWords = 0;
-
-  sections.forEach((section, index) => {
-    const sectionWords = wordCount(section);
-    const remainingSections = sections.length - index;
-    const remainingParagraphSlots = paragraphTarget - paragraphs.length;
-    const shouldBreakBeforeAdding =
-      current.length > 0 &&
-      currentWords >= targetWordsPerParagraph &&
-      remainingSections >= remainingParagraphSlots;
-
-    if (shouldBreakBeforeAdding) {
-      paragraphs.push(current.join(' '));
-      current = [];
-      currentWords = 0;
-    }
-
-    current.push(section);
-    currentWords += sectionWords;
-  });
-
-  if (current.length > 0) {
-    paragraphs.push(current.join(' '));
-  }
-
-  return paragraphs;
-}
-
 function renderFigureBlock(figure, corpus, layoutClass) {
   const block = document.createElement('section');
   block.className = `figure-block ${layoutClass}`;
   block.innerHTML = `
     <h2>${figure.name}</h2>
-    <p>${corpus.paragraphA}</p>
-    <p>${corpus.paragraphB}</p>
-    <p><em>${corpus.shard}</em></p>
+    <div class="prose-collage">
+      <div class="prose-main">
+        <p>${corpus.paragraphA}</p>
+        <p>${corpus.paragraphB}</p>
+      </div>
+      <aside class="prose-overlay left"><p>${corpus.shard}</p></aside>
+      <aside class="prose-overlay right"><p>${corpus.paragraphA.slice(0, 350)}...</p></aside>
+      <div class="vertical-ribbon">${corpus.paragraphB.slice(0, 230)}</div>
+    </div>
   `;
   return block;
 }
@@ -265,16 +215,18 @@ function renderFigureBlock(figure, corpus, layoutClass) {
 function renderImageBlock(image, layoutClass) {
   const figure = document.createElement('figure');
   figure.className = `image-block ${layoutClass}`;
-  figure.innerHTML = `<img src="${image.src}" alt="${image.caption}" loading="lazy" /><figcaption>${image.caption}</figcaption>`;
+  figure.innerHTML = `<img src="${image.src}" alt="${image.title}" loading="eager" /><figcaption>${image.title}</figcaption>`;
   return figure;
 }
 
-async function bootstrap() {
+async function renderBricolage() {
   const response = await fetch('./figures.json');
   const figures = await response.json();
   const chosenFigures = weightedFigureSelection(figures, 4, 8);
 
   const page = document.getElementById('page');
+  page.innerHTML = '';
+
   const layoutState = { disruptionCount: 0, invertedCount: 0 };
 
   const fragments = [];
@@ -287,7 +239,7 @@ async function bootstrap() {
     fragments.push({ type: 'figure', figure, corpus });
   }
 
-  const imageCount = randomInt(2, 5);
+  const imageCount = randomInt(3, 5);
   const images = sample(ARCHIVAL_IMAGES, imageCount).map((item) => ({ type: 'image', item }));
 
   const interleaved = [...fragments, ...images].sort(() => Math.random() - 0.5);
@@ -309,6 +261,18 @@ async function bootstrap() {
       page.appendChild(marker);
     }
   }
+}
+
+function bootstrap() {
+  const introModal = document.getElementById('intro-modal');
+  const enterButton = document.getElementById('enter-site');
+  const page = document.getElementById('page');
+
+  enterButton.addEventListener('click', async () => {
+    introModal.classList.add('is-hidden');
+    page.classList.remove('is-hidden');
+    await renderBricolage();
+  });
 }
 
 bootstrap();
