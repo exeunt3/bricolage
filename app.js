@@ -68,7 +68,19 @@ const PROHIBITED_PATTERNS = [
   /\bbasically\b/i,
   /\bsimply\b/i,
   /\bIt is not .*?, it is\b/i,
-  /\bNot .*? but\b/i
+  /\bNot .*? but\b/i,
+  /\blet'?s\b/i,
+  /\byou(?:'re| are)\b/i,
+  /\bjourney\b/i,
+  /\bgame[- ]changer\b/i,
+  /\bstate[- ]of[- ]the[- ]art\b/i,
+  /\bcutting[- ]edge\b/i,
+  /\bin conclusion\b/i,
+  /\bto conclude\b/i,
+  /\bin summary\b/i,
+  /\bto summarize\b/i,
+  /\boverall\b/i,
+  /\bto sum up\b/i
 ];
 
 const SENTENCE_SPLIT = /[.!?]+/;
