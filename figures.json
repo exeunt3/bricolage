@@ -14,8 +14,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "giordano-bruno"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Portrait_of_Giordano_Bruno_in_%22Opere%22_Wellcome_L0015152_%28cropped%29.jpg/330px-Portrait_of_Giordano_Bruno_in_%22Opere%22_Wellcome_L0015152_%28cropped%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/5a/046CupolaSPietro.jpg"
+    ],
+    "id": "giordano-bruno",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Giordano_Bruno",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Giordano%20Bruno",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Giordano%20Bruno"
+    },
+    "biography": "Giordano Bruno was an Italian philosopher, poet, alchemist, astronomer, cosmological theorist, and esotericist. He is known for his cosmological theories, which conceptually extended to include the then-novel Copernican model. He practised Hermeticism and took a mystical approach to exploring the universe. He proposed that the stars were distant suns surrounded by their own planets (exoplanets), and he raised the possibility that these planets might foster life of their own, a cosmological position known as cosmic pluralism. He also insisted that the universe is infinite and could have no centre."
   },
   {
     "name": "Spinoza",
@@ -32,8 +41,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "spinoza"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Spinoza.jpg/330px-Spinoza.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/c/c7/Ban_of_Baruch_Spinoza%2C_Amsterdam%2C_27_July_1656%2C_6_Av_5416.jpg"
+    ],
+    "id": "spinoza",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Baruch_Spinoza",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Spinoza",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Spinoza"
+    },
+    "biography": "Baruch (de) Spinoza, also known under his Latinized pen name Benedictus de Spinoza, was a philosopher of Portuguese-Jewish origin, who was born and lived in the Dutch Republic. A forerunner of the Age of Enlightenment, Spinoza significantly influenced modern biblical criticism, 17th-century rationalism, and Dutch intellectual culture, establishing himself as one of the most important and radical philosophers of the early modern period. Influenced by Stoicism, Thomas Hobbes, René Descartes, Ibn Tufayl, and heterodox Christians, Spinoza was a leading philosopher of the Dutch Golden Age."
   },
   {
     "name": "Teilhard de Chardin",
@@ -50,8 +68,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "teilhard-de-chardin"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/TeilhardP_1955a.jpg/330px-TeilhardP_1955a.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/5a/046CupolaSPietro.jpg"
+    ],
+    "id": "teilhard-de-chardin",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Pierre_Teilhard_de_Chardin",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Teilhard%20de%20Chardin",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Teilhard%20de%20Chardin"
+    },
+    "biography": "Pierre Teilhard de Chardin, S.J. was a French Jesuit, Catholic priest, scientist, paleontologist, philosopher, mystic, and teacher. Teilhard de Chardin investigated the theory of evolution from a perspective influenced by Henri Bergson and Christian mysticism, writing multiple scientific and religious works on the subject. His mainstream scientific achievements include his palaeontological research in China, taking part in the discovery of the significant Peking Man fossils from the Zhoukoudian cave complex near Beijing. His more speculative ideas, sometimes criticized as pseudoscientific, have included a vitalist conception of the Omega Point. Along with Vladimir Vernadsky, he contributed to the development of the concept of the noosphere."
   },
   {
     "name": "Whitehead",
@@ -68,8 +95,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "whitehead"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/ANWhitehead.jpg/330px-ANWhitehead.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/2/22/Bergson-Nobel-photo.jpg"
+    ],
+    "id": "whitehead",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Alfred_North_Whitehead",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Alfred%20North%20Whitehead",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Alfred%20North%20Whitehead"
+    },
+    "biography": "Alfred North Whitehead was an English mathematician and philosopher. He created the philosophical school known as process philosophy, which has been applied in a wide variety of disciplines, including ecology, theology, education, physics, biology, economics, and psychology."
   },
   {
     "name": "Simone Weil",
@@ -86,8 +122,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "simone-weil"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Simone_Weil_1943.jpg/330px-Simone_Weil_1943.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/e/e2/3_rue_du_Bourbonnais%2C_Vichy_-_plaque_Simone_Weil.jpg"
+    ],
+    "id": "simone-weil",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Simone_Weil",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Simone%20Weil",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Simone%20Weil"
+    },
+    "biography": "Simone Adolphine Weil was a French philosopher, mystic and political activist. Despite her short life, her ideas concerning religion, spirituality and politics have remained widely influential in contemporary philosophy."
   },
   {
     "name": "Newton (esoteric corpus)",
@@ -104,8 +149,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "newton--esoteric-corpus"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Portrait_of_Sir_Isaac_Newton%2C_1689_%28brightened%29.jpg/330px-Portrait_of_Sir_Isaac_Newton%2C_1689_%28brightened%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/0/00/Crab_Nebula.jpg"
+    ],
+    "id": "newton--esoteric-corpus",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Isaac_Newton",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Isaac%20Newton",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Isaac%20Newton"
+    },
+    "biography": "Sir Isaac Newton was an English polymath who was a mathematician, physicist, astronomer, alchemist, theologian, author and inventor. He was a key figure in the Scientific Revolution and the Enlightenment that followed. His book Philosophiæ Naturalis Principia Mathematica, first published in 1687, achieved the first great unification in physics and established classical mechanics. Newton also made seminal contributions to optics, and shares credit with the German mathematician Gottfried Wilhelm Leibniz for formulating infinitesimal calculus, although he developed calculus years before Leibniz. Newton contributed to and refined the scientific method, and his work is considered the most influential in bringing forth modern science."
   },
   {
     "name": "Kepler",
@@ -122,8 +176,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "kepler"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/JKepler.jpg/330px-JKepler.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/2/2a/Barbara_M%C3%BCller_and_Johannes_Kepler.jpg"
+    ],
+    "id": "kepler",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Johannes_Kepler",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Johannes%20Kepler",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Johannes%20Kepler"
+    },
+    "biography": "Johannes Kepler was a German astronomer, mathematician, astrologer, natural philosopher and music theorist. He is a key figure in the 17th-century Scientific Revolution, best known for his laws of planetary motion, and his books Astronomia nova, Harmonice Mundi, and Epitome Astronomiae Copernicanae. The variety and impact of his work made Kepler one of the founders and fathers of modern astronomy, the scientific method, natural science, and modern science. He has been described as the \"father of science fiction\" for his novel Somnium."
   },
   {
     "name": "Goethe",
@@ -140,8 +203,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "goethe"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Goethe_%28Stieler_1828%29.jpg/330px-Goethe_%28Stieler_1828%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/e/e5/-1-_Die_Leiden_des_jungen_Werthers._Erstdruck.jpg"
+    ],
+    "id": "goethe",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Johann%20Wolfgang%20von%20Goethe",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Johann%20Wolfgang%20von%20Goethe"
+    },
+    "biography": "Johann Wolfgang von Goethe was a German polymath who is widely regarded as the most influential writer in the German language. His work has had a wide-ranging influence on literary, political, and philosophical thought in the Western world from the late 18th century to the present. A poet, playwright, novelist, scientist, statesman, theatre-director, and critic, Goethe wrote a wide range of works, including plays, poetry and aesthetic criticism, as well as treatises on botany, anatomy, and colour."
   },
   {
     "name": "Swedenborg",
@@ -158,8 +230,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "swedenborg"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Emanuel_Swedenborg.PNG/330px-Emanuel_Swedenborg.PNG",
+      "https://upload.wikimedia.org/wikipedia/commons/0/02/Arcana_Caelestia_0001.jpg"
+    ],
+    "id": "swedenborg",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Emanuel_Swedenborg",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Emanuel%20Swedenborg",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Emanuel%20Swedenborg"
+    },
+    "biography": "Emanuel Swedenborg was a Swedish polymath; a scientist, engineer, astronomer, anatomist, Christian theologian, philosopher, and mystic. He became best known for his book on the afterlife, Heaven and Hell (1758)."
   },
   {
     "name": "Deleuze",
@@ -176,8 +257,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "deleuze"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/en/thumb/7/7e/Gilles_Deleuze.webp/299px-Gilles_Deleuze.webp.png",
+      "https://upload.wikimedia.org/wikipedia/en/7/7e/Gilles_Deleuze.webp"
+    ],
+    "id": "deleuze",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Gilles_Deleuze",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Gilles%20Deleuze",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Gilles%20Deleuze"
+    },
+    "biography": "Gilles Louis René Deleuze was a French philosopher who, from the early 1950s until his death in 1995, wrote on philosophy, literature, film, and fine art. His most popular works were the two volumes of Capitalism and Schizophrenia: Anti-Oedipus (1972) and A Thousand Plateaus (1980), both co-written with psychoanalyst Félix Guattari. His metaphysical treatise Difference and Repetition (1968) is considered to be his magnum opus."
   },
   {
     "name": "Bohm",
@@ -194,8 +284,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "bohm"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/6/69/David_Bohm.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/0/0f/Holography-reconstruct.png"
+    ],
+    "id": "bohm",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/David_Bohm",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=David%20Bohm",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=David%20Bohm"
+    },
+    "biography": "David Joseph Bohm was an American scientist who has been described as one of the most significant theoretical physicists of the 20th century and who contributed unorthodox ideas to quantum theory, neuropsychology and the philosophy of mind. Among his many contributions to physics is his causal and deterministic interpretation of quantum theory known as De Broglie–Bohm theory."
   },
   {
     "name": "McKenna",
@@ -212,8 +311,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "mckenna"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Hanna_jon_1999_mckenna_terence.jpg/330px-Hanna_jon_1999_mckenna_terence.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/12/Botanical_Dimensions_ethnobotanical_preserve_in_Hawaii.jpg"
+    ],
+    "id": "mckenna",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Terence_McKenna",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Terence%20McKenna",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Terence%20McKenna"
+    },
+    "biography": "Terence Kemp McKenna was an American philosopher, ethnobotanist, lecturer, and author who advocated for the responsible use of naturally occurring psychedelic plants and mushrooms. He spoke and wrote about a variety of subjects, including psychedelic drugs, plant-based entheogens, shamanism, metaphysics, alchemy, language, philosophy, culture, technology, ethnomycology, environmentalism, and the theoretical origins of human consciousness. He was called the \"Timothy Leary of the '90s\", \"one of the leading authorities on the ontological foundations of shamanism\", and the \"intellectual voice of rave culture\". Critical reception of Terence McKenna’s work was deeply polarized, with critics accusing him of promoting dangerous ideas and questioning his sanity, while others praised his writing as groundbreaking, humorous, and intellectually provocative."
   },
   {
     "name": "Margulis",
@@ -230,8 +338,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "margulis"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Lynn_Margulis.jpg/330px-Lynn_Margulis.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/c/c9/Glaucocystis_sp.jpg"
+    ],
+    "id": "margulis",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Lynn_Margulis",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Margulis",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Margulis"
+    },
+    "biography": "Lynn Margulis was an American evolutionary biologist, who was the primary modern proponent for the significance of symbiosis in evolution. In particular, Margulis transformed and fundamentally framed biologists' understanding of the evolution of the Eukaryotes, organisms with nuclei in their cells. \nShe proposed that they came into being by symbiotic mergers of bacteria. Margulis was the co-developer of the Gaia hypothesis with the British chemist James Lovelock, proposing that the Earth functions as a unified self-regulating system, and the principal defender and promulgator of the five kingdom classification of Robert Whittaker."
   },
   {
     "name": "Jung",
@@ -248,8 +365,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "jung"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/ETH-BIB-Jung%2C_Carl_Gustav_%281875-1961%29-Portrait-Portr_14163_%28cropped%29.tif/lossy-page1-330px-ETH-BIB-Jung%2C_Carl_Gustav_%281875-1961%29-Portrait-Portr_14163_%28cropped%29.tif.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/6/61/11-11-24-basel-by-ralfr-035.jpg"
+    ],
+    "id": "jung",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Carl_Jung",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Carl%20Jung",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Carl%20Jung"
+    },
+    "biography": "Carl Gustav Jung was a Swiss psychiatrist, psychotherapist, and psychologist who founded the school of analytical psychology. He was a prolific author of over twenty books, illustrator, and correspondent, and academic, best known for his concept of archetypes. Widely considered one of the most influential psychologists of the early 20th century, and of all time, Jung's work has fostered not only scholarship, but also popular interest. His work has been influential in the fields of psychiatry, anthropology, archaeology, literature, philosophy, psychology, and religious studies."
   },
   {
     "name": "Royal Robertson",
@@ -266,8 +392,16 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "royal-robertson"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/Royal_Robertson.jpg/330px-Royal_Robertson.jpg"
+    ],
+    "id": "royal-robertson",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Royal_Robertson",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Royal%20Robertson",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Royal%20Robertson"
+    },
+    "biography": "Royal Robertson, also known as the self-proclaimed Prophet Royal Robertson, was an American outsider artist."
   },
   {
     "name": "Nadia Boulanger",
@@ -284,8 +418,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "nadia-boulanger"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Nadia_Boulanger_1925.jpg/330px-Nadia_Boulanger_1925.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/e/ea/Chateau_Fontainebleau_-002.jpg"
+    ],
+    "id": "nadia-boulanger",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Nadia_Boulanger",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Nadia%20Boulanger",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Nadia%20Boulanger"
+    },
+    "biography": "Juliette Nadia Boulanger was a French music teacher, conductor and composer. She taught many of the leading composers and musicians of the twentieth century, and also performed occasionally as a pianist and organist."
   },
   {
     "name": "William Blake",
@@ -302,8 +445,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "william-blake"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/William_Blake_by_Thomas_Phillips.jpg/330px-William_Blake_by_Thomas_Phillips.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/7b/A_memorial_to_William_Blake_in_St_James%27s_Church%2C_Piccadilly.jpg"
+    ],
+    "id": "william-blake",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/William_Blake",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=William%20Blake",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=William%20Blake"
+    },
+    "biography": "William Blake was an English poet, painter and printmaker. Largely unrecognised during his life, Blake has become a seminal figure in the history of the poetry and visual art of the Romantic Age. What he called his \"prophetic works\" were said by the 20th-century critic Northrop Frye to form \"what is in proportion to its merits the least read body of poetry in the English language\". While he lived in London his entire life, except for three years spent in Felpham, he produced a diverse and symbolically rich collection of works, which embraced the imagination as \"the body of God\", or \"human existence itself\"."
   },
   {
     "name": "John Coltrane",
@@ -320,8 +472,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "john-coltrane"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/John_Coltrane_1963_cropped_ver2.jpg/330px-John_Coltrane_1963_cropped_ver2.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/73/ColtraneH.jpg"
+    ],
+    "id": "john-coltrane",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/John_Coltrane",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=John%20Coltrane",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=John%20Coltrane"
+    },
+    "biography": "John William Coltrane was an American jazz saxophonist, bandleader, and composer. He is among the most influential and acclaimed figures in the history of jazz and 20th-century music."
   },
   {
     "name": "Alice Coltrane",
@@ -338,8 +499,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "alice-coltrane"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Alice_Coltrane_1972.jpg/330px-Alice_Coltrane_1972.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/6/6e/Swing-Journal-1966-September-1.jpg"
+    ],
+    "id": "alice-coltrane",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Alice_Coltrane",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Alice%20Coltrane",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Alice%20Coltrane"
+    },
+    "biography": "Alice Lucille Coltrane, also known as Swamini Turiyasangitananda or simply Turiya, was an American jazz musician, composer, bandleader, and Hindu spiritual leader. An accomplished pianist and one of the few harpists in the history of jazz, Coltrane recorded many albums as a bandleader, beginning in the late 1960s and early 1970s for Impulse! and other record labels. One of the foremost proponents of spiritual jazz, her eclectic music proved influential both within and outside the world of jazz. She was married to the jazz saxophonist and composer John Coltrane, with whom she performed in 1966–1967."
   },
   {
     "name": "Gustav Klimt",
@@ -356,8 +526,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "gustav-klimt"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Klimt.jpg/330px-Klimt.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/58/Egon_Schiele_-_Gustav_Klimt_im_blauen_Malerkittel_-_1913.jpeg"
+    ],
+    "id": "gustav-klimt",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Gustav_Klimt",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Gustav%20Klimt",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Gustav%20Klimt"
+    },
+    "biography": "Gustav Klimt was an Austrian symbolist painter and a founding member of the Vienna Secession movement. His work helped define the Art Nouveau style in Europe. Klimt is known for his paintings, murals, sketches, and other objets d'art. Klimt's primary subject was the female body, and his works are marked by a frank eroticism. Amongst his figurative works, which include allegories and portraits, he painted landscapes. He is best known for The Kiss and Portrait of Adele Bloch-Bauer I. Among the artists of the Vienna Secession, Klimt was the most influenced by Japanese art and its methods."
   },
   {
     "name": "Éon de l'Étoile",
@@ -374,8 +553,16 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "éon-de-l-étoile"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg"
+    ],
+    "id": "éon-de-l-étoile",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/%C3%89on_de_l'%C3%89toile",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=%C3%89on%20de%20l%27%C3%89toile",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=%C3%89on%20de%20l%27%C3%89toile"
+    },
+    "biography": "Éon de l'Étoile, from the Latin Eudo de Stella, was a Breton religious leader and \"messiah\". He opposed the Roman Catholic Church to the point of pillaging abbeys and monasteries and accumulating a large treasure during a period of eight years (1140–48). He was considered little more than an \"illiterate idiot\" by the Church authorities."
   },
   {
     "name": "Abiezzer Coppe",
@@ -392,8 +579,16 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "abiezzer-coppe"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg"
+    ],
+    "id": "abiezzer-coppe",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Abiezer%20Coppe",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Abiezer%20Coppe",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Abiezer%20Coppe"
+    },
+    "biography": "Abiezzer Coppe appears in historical and philosophical archives; consult the linked encyclopedia entries for vetted overviews and bibliographic context."
   },
   {
     "name": "Pseudo-Dionysius the Areopagite",
@@ -410,8 +605,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "pseudo-dionysius-the-areopagite"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Plotin.jpg/330px-Plotin.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/5a/046CupolaSPietro.jpg"
+    ],
+    "id": "pseudo-dionysius-the-areopagite",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Pseudo-Dionysius_the_Areopagite",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Pseudo-Dionysius%20the%20Areopagite",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Pseudo-Dionysius%20the%20Areopagite"
+    },
+    "biography": "Pseudo-Dionysius the Areopagite was a Greek author, Christian theologian and Neoplatonic philosopher of the late 5th to early 6th century, who wrote a set of works known as the Corpus Areopagiticum or Corpus Dionysiacum. Through his writing in Mystical Theology, he has been identified as the \"progenitor of apophatic or negative theology.\""
   },
   {
     "name": "Plotinus",
@@ -428,8 +632,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "plotinus"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Plotinos.jpg/330px-Plotinos.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/a/ad/Plotin.jpg"
+    ],
+    "id": "plotinus",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Plotinus",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Plotinus",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Plotinus"
+    },
+    "biography": "Plotinus was a Hellenised Platonist philosopher, born and raised in Roman Egypt. Plotinus is regarded by modern scholarship as the founder of Neoplatonism. His teacher was the self-taught philosopher Ammonius Saccas, who belonged to the Platonic tradition. Historians of the 19th century invented the term \"Neoplatonism\" and applied it to refer to Plotinus and his philosophy, which was vastly influential during late antiquity, the Middle Ages, and the Renaissance. Much of the biographical information about Plotinus comes from Porphyry's preface to his edition of Plotinus' most notable literary work, The Enneads. In his metaphysical writings, Plotinus described three fundamental principles: the One, the Intellect, and the Soul. His works have inspired centuries of pagan, Jewish, Christian, Gnostic, and early Islamic metaphysicians and mystics, including developing precepts that influence mainstream theological concepts within religions, such as his work on duality of the One in two metaphysical states."
   },
   {
     "name": "Meister Eckhart",
@@ -446,8 +659,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "meister-eckhart"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Meister_Eckhart_base_copie.jpg/330px-Meister_Eckhart_base_copie.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/5a/046CupolaSPietro.jpg"
+    ],
+    "id": "meister-eckhart",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Meister_Eckhart",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Meister%20Eckhart",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Meister%20Eckhart"
+    },
+    "biography": "Eckhart von Hochheim, commonly known as Meister Eckhart, Master Eckhart or Eckehart, claimed original name Johannes Eckhart, was a German Catholic priest, theologian, philosopher and mystic. He was born near Gotha in the Landgraviate of Thuringia in the Holy Roman Empire."
   },
   {
     "name": "Hildegard von Bingen",
@@ -464,8 +686,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "hildegard-von-bingen"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Hildegard_von_Bingen.jpg/330px-Hildegard_von_Bingen.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/5a/046CupolaSPietro.jpg"
+    ],
+    "id": "hildegard-von-bingen",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Hildegard_of_Bingen",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Hildegard%20von%20Bingen",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Hildegard%20von%20Bingen"
+    },
+    "biography": "Hildegard of Bingen OSB, also known as the Sibyl of the Rhine, was a German Benedictine abbess and polymath active as a writer, composer, philosopher, mystic, visionary, and as a medical writer and practitioner of the Catholic Church during the High Middle Ages. She is one of the best-known composers of sacred monophony, as well as the most recorded in modern history. A number of scholars has considered her to be the founder of scientific natural history in Germany."
   },
   {
     "name": "Nicolas of Cusa",
@@ -482,8 +713,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "nicolas-of-cusa"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Nicholas_of_Cusa.jpg/330px-Nicholas_of_Cusa.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/5a/046CupolaSPietro.jpg"
+    ],
+    "id": "nicolas-of-cusa",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Nicholas_of_Cusa",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Nicolas%20of%20Cusa",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Nicolas%20of%20Cusa"
+    },
+    "biography": "Nicholas of Cusa, also referred to as Nicholas of Kues and Nicolaus Cusanus, was a German Catholic bishop and polymath active as a philosopher, theologian, jurist, mathematician, and astronomer. One of the first German proponents of Renaissance humanism, he made spiritual and political contributions to European culture. A notable example of this is his mystical or spiritual writings on \"learned ignorance\", as well as his participation in power struggles between Rome and the German states of the Holy Roman Empire."
   },
   {
     "name": "Jakob Böhme",
@@ -500,8 +740,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "jakob-böhme"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Jacob-B%C3%B6hme.jpg/330px-Jacob-B%C3%B6hme.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/0/03/Boehme_Portrait_1730.jpeg"
+    ],
+    "id": "jakob-böhme",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Jakob_B%C3%B6hme",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Jakob%20B%C3%B6hme",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Jakob%20B%C3%B6hme"
+    },
+    "biography": "Jakob Böhme was a German philosopher, Christian mystic, and Lutheran Protestant theologian. He was considered an original thinker by many of his contemporaries within the Lutheran tradition, and his first book, commonly known as Aurora, caused a great scandal. In contemporary English, his name may be spelled Jacob Boehme ; in seventeenth-century England it was also spelled Behmen, approximating the contemporary English pronunciation of the German Böhme."
   },
   {
     "name": "Jan van Ruusbroec",
@@ -518,8 +767,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "jan-van-ruusbroec"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/b/bc/Jan_Van_Ruysbroeck.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/5a/046CupolaSPietro.jpg"
+    ],
+    "id": "jan-van-ruusbroec",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/John_of_Ruusbroec",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Jan%20van%20Ruusbroec",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Jan%20van%20Ruusbroec"
+    },
+    "biography": "John of Ruusbroec or Jan van Ruusbroec, sometimes modernized Ruysbroeck, was an Augustinian canon and one of the most important of the medieval mystics of the Low Countries. Some of his main literary works include The Kingdom of the Divine Lovers, The Twelve Beguines, The Spiritual Espousals, A Mirror of Eternal Blessedness, The Little Book of Enlightenment, and The Sparkling Stone. Some of his letters also survive, as well as several short sayings. He wrote in the Dutch vernacular, the language of the common people of the Low Countries, rather than in Latin, the language of the Catholic Church liturgy and official texts, in order to reach a wider audience."
   },
   {
     "name": "Franz von Baader",
@@ -536,8 +794,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "franz-von-baader"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/2c/Franz_Xaver_von_Baader.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/5a/046CupolaSPietro.jpg"
+    ],
+    "id": "franz-von-baader",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Franz_Xaver_von_Baader",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Franz%20von%20Baader",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Franz%20von%20Baader"
+    },
+    "biography": "Franz von Baader, born Benedikt Franz Xaver Baader, was a Catholic theologian, philosopher, and mining engineer from Germany. Resisting the empiricism of his day, he denounced most Western philosophy since Descartes as trending into atheism and has been considered a revival of the Scholastic school. He was an important theorist of androgyny."
   },
   {
     "name": "Sri Aurobindo",
@@ -554,8 +821,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "sri-aurobindo"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Sri_aurobindo.jpg/330px-Sri_aurobindo.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/0/07/Aurobindo.family.jpg"
+    ],
+    "id": "sri-aurobindo",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Sri_Aurobindo",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Sri%20Aurobindo",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Sri%20Aurobindo"
+    },
+    "biography": "Sri Aurobindo was an Indian nationalist and yogi. A revolutionary in the movement for India's independence from British rule, he advocated for complete autonomy through his writings and political activity. Following his imprisonment and acquittal, he withdrew to Pondicherry to devote himself to spiritual practice, eventually formulating the path of Integral Yoga. His extensive literary output includes the treatises The Life Divine and The Synthesis of Yoga and the epic poem Savitri."
   },
   {
     "name": "Henri Bergson",
@@ -572,8 +848,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "henri-bergson"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Henri_Bergson_02.jpg/330px-Henri_Bergson_02.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/f/ff/1917_Henri_Bergson_and_daughter_Jeanne_Bergson.jpg"
+    ],
+    "id": "henri-bergson",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Henri_Bergson",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Henri%20Bergson",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Henri%20Bergson"
+    },
+    "biography": "Henri-Louis Bergson was a French philosopher who was influential in the traditions of analytic philosophy and continental philosophy, especially during the first half of the 20th century until the Second World War, but also after 1966 when Gilles Deleuze published Le Bergsonisme."
   },
   {
     "name": "Raimon Llull",
@@ -590,8 +875,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "raimon-llull"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Francisco_Ribalta_-_Ramon_Llull_-_Google_Art_Project.jpg/330px-Francisco_Ribalta_-_Ramon_Llull_-_Google_Art_Project.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/5a/046CupolaSPietro.jpg"
+    ],
+    "id": "raimon-llull",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Ramon_Llull",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Raimon%20Llull",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Raimon%20Llull"
+    },
+    "biography": "Ramon Llull, sometimes anglicized as Raymond Lully, was a Mallorcan Catholic philosopher, theologian, poet, missionary, apologist and former knight. He invented a philosophical system known as the Art, conceived as a type of universal logic to prove the truth of Christian doctrine to interlocutors of all faiths and nationalities. The Art consists of a set of general principles and combinatorial operations. It is illustrated with diagrams."
   },
   {
     "name": "Robert Fludd",
@@ -608,8 +902,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "robert-fludd"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Robert_Fludd.jpg/330px-Robert_Fludd.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/9/96/Fludd_summum_bonum.jpg"
+    ],
+    "id": "robert-fludd",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Robert_Fludd",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Robert%20Fludd",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Robert%20Fludd"
+    },
+    "biography": "Robert Fludd, also known as Robertus de Fluctibus, was a prominent English Paracelsian physician with both scientific and occult interests. He is remembered as an astrologer, mathematician, cosmologist, Qabalist, and Rosicrucian."
   },
   {
     "name": "Athanasius Kircher",
@@ -626,8 +929,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "athanasius-kircher"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Athanasius_Kircher_%28cropped%29.jpg/330px-Athanasius_Kircher_%28cropped%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/5a/046CupolaSPietro.jpg"
+    ],
+    "id": "athanasius-kircher",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Athanasius_Kircher",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Athanasius%20Kircher",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Athanasius%20Kircher"
+    },
+    "biography": "Athanasius Kircher was a German Jesuit scholar and polymath who published around 40 major works of comparative religion, geology, and medicine. Kircher has been compared to fellow Jesuit Roger Joseph Boscovich and to Leonardo da Vinci for his vast range of interests, and has been honoured with the title \"Master of a Hundred Arts\". He taught for more than 40 years at the Roman College, where he set up a wunderkammer or cabinet of curiosities that would become the Kircherian Museum. A resurgence of interest in Kircher has occurred within the scholarly community in recent decades."
   },
   {
     "name": "Johannes Trithemius",
@@ -644,8 +956,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "johannes-trithemius"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Trithemiusmoredetail.jpg/330px-Trithemiusmoredetail.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/0/0b/Chart_in_the_hand_of_Dr_John_Dee._Steganographiae.png"
+    ],
+    "id": "johannes-trithemius",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Johannes_Trithemius",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Johannes%20Trithemius",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Johannes%20Trithemius"
+    },
+    "biography": "Johannes Trithemius, born Johann Heidenberg, was a German Benedictine abbot and a polymath who was active in the German Renaissance as a lexicographer, chronicler, cryptographer, and occultist. He is considered the founder of modern cryptography and steganography, as well as the founder of bibliography and literary studies as branches of knowledge. He had considerable influence on the development of early modern and modern occultism. His students included Heinrich Cornelius Agrippa and Paracelsus."
   },
   {
     "name": "John Dee",
@@ -662,8 +983,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "john-dee"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/John_Dee_Ashmolean.jpg/330px-John_Dee_Ashmolean.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/70/Artefatos_de_Dee.jpg"
+    ],
+    "id": "john-dee",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/John_Dee",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=John%20Dee",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=John%20Dee"
+    },
+    "biography": "John Dee was an English mathematician, astronomer, teacher, astrologer, occultist, and alchemist. He was the court astronomer for, and advisor to, Elizabeth I, and spent much of his time on alchemy, divination, and Hermetic philosophy. As an antiquarian, he had one of the largest libraries in England at the time. As a political advisor, he advocated the foundation of English colonies in the New World to form a \"British Empire\", a term he is credited with coining."
   },
   {
     "name": "Michael Maier",
@@ -680,8 +1010,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "michael-maier"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Michael_Maier_portrait.jpg/330px-Michael_Maier_portrait.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/4f/Atalanta_Fugiens_05_Bosom.jpg"
+    ],
+    "id": "michael-maier",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Michael_Maier",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Michael%20Maier",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Michael%20Maier"
+    },
+    "biography": "Michael Maier was a German physician and counsellor to Rudolf II Habsburg. He was a learned alchemist, epigramist, and amateur composer."
   },
   {
     "name": "Tycho Brahe",
@@ -698,8 +1037,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "tycho-brahe"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Portr%C3%A4tt_av_Tycho_Brahe_-_Skoklosters_slott_-_90153.tif/lossy-page1-330px-Portr%C3%A4tt_av_Tycho_Brahe_-_Skoklosters_slott_-_90153.tif.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/71/Astronomiae_Instauratae_Progymnasmata.jpg"
+    ],
+    "id": "tycho-brahe",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Tycho_Brahe",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Tycho%20Brahe",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Tycho%20Brahe"
+    },
+    "biography": "Tycho Brahe, generally called Tycho for short, was a Danish astronomer known for his comprehensive and unprecedentedly accurate astronomical observations which helped to turn astronomy into the first modern science and launch the Scientific Revolution. He was known during his lifetime as an astronomer, astrologer, and alchemist. He was the last major astronomer before the invention of the telescope and has been described as the greatest pre-telescopic astronomer."
   },
   {
     "name": "Wolfgang Pauli",
@@ -716,8 +1064,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "wolfgang-pauli"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/4/43/Pauli.jpg",
+      "https://upload.wikimedia.org/wikipedia/en/e/ed/Nobel_Prize.png"
+    ],
+    "id": "wolfgang-pauli",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Wolfgang_Pauli",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Wolfgang%20Pauli",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Wolfgang%20Pauli"
+    },
+    "biography": "Wolfgang Ernst Pauli was an Austrian–Swiss theoretical physicist and a pioneer of quantum mechanics. In 1945, after having been nominated by Albert Einstein, Pauli received the Nobel Prize in Physics \"for the discovery of the Exclusion Principle, also called the Pauli Principle\". The discovery involved spin theory, which is the basis of a theory of the structure of matter."
   },
   {
     "name": "Gregory of Nyssa",
@@ -734,8 +1091,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "gregory-of-nyssa"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Gregory_of_Nyssa.jpg/330px-Gregory_of_Nyssa.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/5a/046CupolaSPietro.jpg"
+    ],
+    "id": "gregory-of-nyssa",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Gregory_of_Nyssa",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Gregory%20of%20Nyssa",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Gregory%20of%20Nyssa"
+    },
+    "biography": "Gregory of Nyssa, also known as Gregory Nyssen, was an early Christian theologian who served as the bishop of Nyssa from 372 to 376 and from 378 until his death in 394. He is venerated as a saint in Eastern Orthodoxy, the Catholic Church, Oriental Orthodox Churches, Anglicanism, and Lutheranism. Gregory, his younger brother Basil of Caesarea, and their friend Gregory of Nazianzus are collectively known as the Cappadocian Fathers."
   },
   {
     "name": "Isaac Luria",
@@ -752,8 +1118,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "isaac-luria"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/%D7%A8%D7%91%D7%99_%D7%9E%D7%A9%D7%94.JPG/330px-%D7%A8%D7%91%D7%99_%D7%9E%D7%A9%D7%94.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/8/8b/Letter_to_%27The_Holy_Ari%27.jpg"
+    ],
+    "id": "isaac-luria",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Isaac_Luria",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Isaac%20Luria",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Isaac%20Luria"
+    },
+    "biography": "Isaac ben Solomon Ashkenazi Luria, commonly known in Jewish religious circles as Ha'ari, Ha'ari Hakadosh or Arizal, was a leading rabbi and Jewish mystic in the community of Safed in the Galilee region of Ottoman Syria, now Israel. He is considered the father of contemporary Kabbalah, his teachings being referred to as Lurianic Kabbalah."
   },
   {
     "name": "Jacob Frank",
@@ -770,8 +1145,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "jacob-frank"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Jakub_Frank.jpg/330px-Jakub_Frank.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/d1/Cz%C4%99stochowa_klasztor_Jasna_G%C3%B3ra-2162.jpg"
+    ],
+    "id": "jacob-frank",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Jacob_Frank",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Jacob%20Frank",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Jacob%20Frank"
+    },
+    "biography": "Jacob Joseph Frank was a Polish-Jewish religious leader who claimed to be the reincarnation of the self-proclaimed messiah Sabbatai Zevi (1626–1676) and also of the biblical patriarch Jacob. The religious authorities of the Jewish community excommunicated Frank and his followers due to his heretical doctrines that included deification of himself as a part of a trinity and other controversial concepts such as neo-Carpocratian \"purification through transgression\". Frank’s teachings led his sect into scandalous practices, including ritualized orgies, incestuous acts—most notably between fathers and daughters—and the deliberate violation of Jewish moral laws, which he preached were necessary to hasten a messianic redemption through embracing the \"abyss\" of sin."
   },
   {
     "name": "Angelus Silesius",
@@ -788,8 +1172,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "angelus-silesius"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Johannes_Scheffler.jpg/330px-Johannes_Scheffler.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/b/b4/Angelus_Silesius-pomnik.JPG"
+    ],
+    "id": "angelus-silesius",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Angelus_Silesius",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Angelus%20Silesius",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Angelus%20Silesius"
+    },
+    "biography": "Angelus Silesius, OFM, born Johann Scheffler, was a German Catholic priest, physician, mystic and religious poet. Born and raised a Lutheran, he began to read the works of medieval mystics while studying in the Netherlands and became acquainted with the works of the German mystic Jacob Böhme through Böhme's friend Abraham von Franckenberg. Silesius's display of his mystic beliefs caused tension with Lutheran authorities and led to his eventual conversion to Catholicism in 1653, wherein he adopted the name Angelus and the epithet Silesius (\"Silesian\"). He entered the Franciscans and was ordained a priest in 1661. Ten years later, in 1671, he retired to a Jesuit house where he remained for the rest of his life."
   },
   {
     "name": "Thomas Müntzer",
@@ -806,8 +1199,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "thomas-müntzer"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Thomas_Muentzer.jpg/330px-Thomas_Muentzer.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/58/95Thesen_facsimile_colour.png"
+    ],
+    "id": "thomas-müntzer",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Thomas_M%C3%BCntzer",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Thomas%20M%C3%BCntzer",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Thomas%20M%C3%BCntzer"
+    },
+    "biography": "Thomas Müntzer was a German preacher and theologian of the early Reformation whose opposition to both Martin Luther and the Catholic Church led to his open defiance of late-feudal authority in central Germany. Müntzer was foremost amongst those reformers who took issue with Luther's compromises with feudal authority. He was a leader of the German peasant and plebeian uprising of 1525 commonly known as the German Peasants' War."
   },
   {
     "name": "William S. Burroughs",
@@ -824,8 +1226,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "william-s--burroughs"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Burroughs1983_crop_b.jpg/330px-Burroughs1983_crop_b.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/9/95/WilliamBurroughsinLawrence.png"
+    ],
+    "id": "william-s--burroughs",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/William_S._Burroughs",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=William%20S.%20Burroughs",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=William%20S.%20Burroughs"
+    },
+    "biography": "William Seward Burroughs II was a writer from USA and visual artist. He is widely considered a primary figure of the Beat Generation and a major postmodern author who influenced both underground and popular culture and literature. Much of Burroughs's work is highly experimental and features unreliable narrators. Also noted as semi-autobiographical, his work often drew from his experiences with drug addiction, and featured his various places of residence as settings in much of his work. With Brion Gysin, Burroughs popularized the cut-up, an aleatory literary technique. His writing also engaged frequent mystical, occult, or otherwise magical themes, constant preoccupations in both his fiction and real life."
   },
   {
     "name": "Hilma af Klint",
@@ -842,8 +1253,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "hilma-af-klint"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Hilma_af_Klint%2C_portrait_photograph_published_in_1901.jpg/330px-Hilma_af_Klint%2C_portrait_photograph_published_in_1901.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Ballerina-icon.jpg"
+    ],
+    "id": "hilma-af-klint",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Hilma_af_Klint",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Hilma%20af%20Klint",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Hilma%20af%20Klint"
+    },
+    "biography": "Hilma af Klint was a Swedish artist and mystic whose paintings are considered to be among the first major abstract works in Western art history. A considerable body of her work predates the first purely abstract compositions by Kandinsky, Malevich, and Mondrian. She belonged to a group called \"The Five\", a circle of women inspired by Theosophy who shared a belief in the importance of trying to contact the \"High Masters\", often through séances. Her paintings, which sometimes resemble diagrams, were a visual representation of complex spiritual ideas."
   },
   {
     "name": "Austin Osman Spare",
@@ -860,8 +1280,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "austin-osman-spare"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Austin_Osman_Spare.jpg/330px-Austin_Osman_Spare.jpg",
+      "https://upload.wikimedia.org/wikipedia/en/3/37/Alphabet-of-Desire.jpg"
+    ],
+    "id": "austin-osman-spare",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Austin_Osman_Spare",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Austin%20Osman%20Spare",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Austin%20Osman%20Spare"
+    },
+    "biography": "Austin Osman Spare was an English artist and occultist who worked as a draughtsman, writer and painter. Influenced by symbolism and Art Nouveau, his art was known for its clear use of line and its depiction of monstrous and sexual imagery. In an occult capacity, he developed magical techniques including automatic writing, automatic drawing and sigilization based on his theories of the relationship between the conscious and unconscious self."
   },
   {
     "name": "Antonin Artaud",
@@ -878,8 +1307,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "antonin-artaud"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Antonin_Artaud_1926.jpg/330px-Antonin_Artaud_1926.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/df/Antonin_Artaud_%E2%80%93_self_portrait_%281947%29.jpg"
+    ],
+    "id": "antonin-artaud",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Antonin_Artaud",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Antonin%20Artaud",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Antonin%20Artaud"
+    },
+    "biography": "Antoine Maria Joseph Paul Artaud, better known as Antonin Artaud, was a French artist who worked across a variety of media. He is best known for his writings, as well as his work in the theatre and cinema. Widely recognized as a major figure of the European avant-garde, he had a particularly strong influence on twentieth-century theatre through his conceptualization of the Theatre of Cruelty. Known for his raw, surreal and transgressive work, his texts explored themes from the cosmologies of ancient cultures, philosophy, the occult, mysticism and indigenous Mexican and Balinese practices."
   },
   {
     "name": "Sun Ra",
@@ -896,8 +1334,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "sun-ra"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Sun_Ra_%281973_publicity_photo_-_Impulse_ABC_Dunhill%29.jpg/330px-Sun_Ra_%281973_publicity_photo_-_Impulse_ABC_Dunhill%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/b/b2/SunRa_in_1992_%28cropped%29.jpg"
+    ],
+    "id": "sun-ra",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Sun_Ra",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Sun%20Ra",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Sun%20Ra"
+    },
+    "biography": "Le Sony'r Ra, better known as Sun Ra, was an American jazz composer, bandleader, piano and synthesizer player, and poet known for his experimental music, \"cosmic\" philosophy, prolific output, and theatrical performances. For much of his career, Ra led The Arkestra, an ensemble with an ever-changing name and flexible line-up."
   },
   {
     "name": "Lee “Scratch” Perry",
@@ -914,8 +1361,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "lee--scratch--perry"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Lee_Scratch_Perry_2016_%289_von_13%29.jpg/330px-Lee_Scratch_Perry_2016_%289_von_13%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/30/Lee_Perry_live.jpg"
+    ],
+    "id": "lee--scratch--perry",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Lee_%22Scratch%22_Perry",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Lee%20%E2%80%9CScratch%E2%80%9D%20Perry",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Lee%20%E2%80%9CScratch%E2%80%9D%20Perry"
+    },
+    "biography": "Lee \"Scratch\" Perry was a Jamaican record producer, songwriter and singer noted for his innovative studio techniques and production style. Perry was a pioneer in the 1970s development of dub music with his early adoption of remixing and studio effects to create new instrumental or vocal versions of existing reggae tracks. He worked with and produced for a wide variety of artists, including Bob Marley and the Wailers, Junior Murvin, the Congos, Max Romeo, the Heptones, Adrian Sherwood, the Beastie Boys, Ari Up, the Clash, the Orb, and many others."
   },
   {
     "name": "Agnes Martin",
@@ -932,8 +1388,16 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "agnes-martin"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/en/3/3a/Agnes_Martin_1954.jpg"
+    ],
+    "id": "agnes-martin",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Agnes_Martin",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Agnes%20Martin",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Agnes%20Martin"
+    },
+    "biography": "Agnes Bernice Martin was a Canadian-American abstract painter known for her minimalist style and abstract expressionism. Born in Saskatchewan, she moved to the United States in 1931, where she pursued higher education and became a U.S. citizen in 1950. Martin's artistic journey began in New York City, where she immersed herself in modern art and developed a deep interest in abstraction. Despite often being labeled a minimalist, she identified more with abstract expressionism. Her work has been defined as an \"essay in discretion, inwardness and silence.\""
   },
   {
     "name": "Andrei Tarkovsky",
@@ -950,8 +1414,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "andrei-tarkovsky"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Andrei_tarkovsky_stamp_russia_2007.jpg/330px-Andrei_tarkovsky_stamp_russia_2007.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/6/6f/Andrej_Tarkovskij_mug_shot_at_Latina_Refugee_Camp_1985.jpg"
+    ],
+    "id": "andrei-tarkovsky",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Andrei_Tarkovsky",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Andrei%20Tarkovsky",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Andrei%20Tarkovsky"
+    },
+    "biography": "Andrei Arsenyevich Tarkovsky was a Soviet film director and screenwriter of Russian origin. He is widely considered one of the greatest directors in cinema history. His films explore spiritual and metaphysical themes and are known for their slow pacing and long takes, dreamlike visual imagery and preoccupation with nature and memory."
   },
   {
     "name": "Olivier Messiaen",
@@ -968,8 +1441,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "olivier-messiaen"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Messiaen_Harcourt_1937_2.jpg/330px-Messiaen_Harcourt_1937_2.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/f/f7/Claire_Delbos_and_Olivier_Messiaen.jpg"
+    ],
+    "id": "olivier-messiaen",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Olivier_Messiaen",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Olivier%20Messiaen",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Olivier%20Messiaen"
+    },
+    "biography": "Olivier Eugène Prosper Charles Messiaen was a French composer, organist, and ornithologist. One of the major composers of the 20th century, he was also an outstanding teacher of composition and musical analysis."
   },
   {
     "name": "Karlheinz Stockhausen",
@@ -986,8 +1468,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "karlheinz-stockhausen"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Stockhausen_1994_WDR.jpg/330px-Stockhausen_1994_WDR.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/9/93/Altenberger_Dom_1925.jpg"
+    ],
+    "id": "karlheinz-stockhausen",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Karlheinz_Stockhausen",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Karlheinz%20Stockhausen",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Karlheinz%20Stockhausen"
+    },
+    "biography": "Karlheinz Stockhausen was a German composer, widely acknowledged by critics as one of the most important but also controversial composers of the 20th and early 21st centuries. He is known for his groundbreaking work in electronic music, having been called the \"father of electronic music\", for introducing controlled chance into serial composition, and for musical spatialization."
   },
   {
     "name": "La Monte Young",
@@ -1004,8 +1495,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "la-monte-young"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/La_Monte_Young_signature.png/330px-La_Monte_Young_signature.png",
+      "https://upload.wikimedia.org/wikipedia/commons/2/2e/Spectrogram_created_from_an_Odia_Wikipedia_article_recording.png"
+    ],
+    "id": "la-monte-young",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/La_Monte_Young",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=La%20Monte%20Young",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=La%20Monte%20Young"
+    },
+    "biography": "La Monte Thornton Young is an American composer, musician, and performance artist recognized as one of the first American minimalist composers and a central figure in post-war avant-garde music. He is best known for his exploration of sustained tones, beginning with his 1958 composition Trio for Strings. His compositions have called into question the nature and definition of music, most prominently in the text scores of his Compositions 1960. While few of his recordings remain in print, his work has inspired prominent musicians across various genres, including avant-garde, rock, and ambient music."
   },
   {
     "name": "Pharoah Sanders",
@@ -1022,8 +1522,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "pharoah-sanders"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Pharoah_Sanders_photo.jpg/330px-Pharoah_Sanders_photo.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/7f/Pharoah_Sanders.jpg"
+    ],
+    "id": "pharoah-sanders",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Pharoah_Sanders",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Pharoah%20Sanders",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Pharoah%20Sanders"
+    },
+    "biography": "Pharoah Sanders was an American jazz saxophonist. Known for his overblowing, harmonic, and multiphonic techniques on the saxophone, as well as his use of \"sheets of sound\", Sanders played a prominent role in the development of free jazz and spiritual jazz through his work as a member of John Coltrane's groups in the mid-1960s, and later through his solo work. He released more than thirty albums as a leader and collaborated extensively with vocalist Leon Thomas and pianist Alice Coltrane, among many others. Fellow saxophonist Ornette Coleman once described him as \"probably the best tenor player in the world\"."
   },
   {
     "name": "Gilbert Simondon",
@@ -1040,8 +1549,16 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "gilbert-simondon"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/Lemonde-Gilbert_Simondon.jpg/330px-Lemonde-Gilbert_Simondon.jpg"
+    ],
+    "id": "gilbert-simondon",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Gilbert_Simondon",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Gilbert%20Simondon",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Gilbert%20Simondon"
+    },
+    "biography": "Gilbert Simondon was a French philosopher best known for his theory of individuation and his work on the field of philosophy of technology. Simondon's work is characterized by his philosophical approach on information theory, communication studies, technology and the natural sciences. Although largely overlooked in his lifetime, the advent of the Information Age has resulted in a reappraisal and increased interest in Simondon's books. He is now seen as someone who precisely predicted and described the social effects and paradigms technical objects and technology itself have offered in the 21st century."
   },
   {
     "name": "Charles Hartshorne",
@@ -1058,8 +1575,16 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "charles-hartshorne"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/en/9/9e/Charles_Hartshorne.png"
+    ],
+    "id": "charles-hartshorne",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Charles_Hartshorne",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Charles%20Hartshorne",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Charles%20Hartshorne"
+    },
+    "biography": "Charles Hartshorne was an American philosopher who concentrated primarily on the philosophy of religion and metaphysics, but also contributed to ornithology. He developed the neoclassical idea of God and produced a modal proof of the existence of God that was a development of Anselm of Canterbury's ontological argument, which influenced Gödel's proof."
   },
   {
     "name": "Isabelle Stengers",
@@ -1076,8 +1601,16 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "isabelle-stengers"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Isabelle-stengers.jpg/330px-Isabelle-stengers.jpg"
+    ],
+    "id": "isabelle-stengers",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Isabelle_Stengers",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Isabelle%20Stengers",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Isabelle%20Stengers"
+    },
+    "biography": "Isabelle Stengers is a Belgian philosopher, noted for her work in the philosophy of science. Trained as a chemist, she has collaborated with Russian-Belgian chemist Ilya Prigogine and French philosopher/sociologist Bruno Latour among others, and has written widely on the history of science as well as philosophers such as Gilles Deleuze, Alfred North Whitehead, Donna Haraway, and Michel Serres."
   },
   {
     "name": "Raymond Ruyer",
@@ -1094,8 +1627,16 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "raymond-ruyer"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Autoportrait_de_Raymond_Ruyer.jpg/330px-Autoportrait_de_Raymond_Ruyer.jpg"
+    ],
+    "id": "raymond-ruyer",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Raymond_Ruyer",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Raymond%20Ruyer",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Raymond%20Ruyer"
+    },
+    "biography": "Raymond Ruyer was a French philosopher in the late 20th century. His work covered topics including the philosophy of biology, the philosophy of informatics, the philosophy of value and others. His most popular book is The Gnosis of Princeton in which he presents his own philosophical views under the pretence that he was representing the views of an imaginary group of American scientists."
   },
   {
     "name": "Henri Corbin",
@@ -1112,8 +1653,16 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "henri-corbin"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/c/cd/Socrates.png"
+    ],
+    "id": "henri-corbin",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Henry_Corbin",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Henri%20Corbin",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Henri%20Corbin"
+    },
+    "biography": "Henry Corbin was a French philosopher, theologian, and Iranologist, professor of Islamic studies at the École pratique des hautes études. He was influential in extending the modern study of traditional Islamic philosophy from early falsafa to later and \"mystical\" figures such as Suhrawardi, Ibn Arabi, and Mulla Sadra Shirazi. With works such as Histoire de la philosophie islamique (1964), he challenged the common European view that philosophy in the Islamic world declined after Averroes and Avicenna."
   },
   {
     "name": "Ernst Cassirer",
@@ -1130,8 +1679,16 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "ernst-cassirer"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/33/Ernst_Cassirer.jpg"
+    ],
+    "id": "ernst-cassirer",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Ernst_Cassirer",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Ernst%20Cassirer",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Ernst%20Cassirer"
+    },
+    "biography": "Ernst Alfred Cassirer was a German philosopher and historian of philosophy. Trained within the Neo-Kantian Marburg School, he initially followed his mentor Hermann Cohen in attempting to supply an idealistic philosophy of science."
   },
   {
     "name": "Edgar Morin",
@@ -1148,8 +1705,16 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "edgar-morin"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Edgar_Morin_LslaP_1549751.jpg/330px-Edgar_Morin_LslaP_1549751.jpg"
+    ],
+    "id": "edgar-morin",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Edgar_Morin",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Edgar%20Morin",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Edgar%20Morin"
+    },
+    "biography": "Edgar Morin is a French philosopher and sociologist of the theory of information who has been recognized for his work on complexity and \"complex thought\", and for his scholarly contributions to such diverse fields as media studies, politics, sociology, visual anthropology, ecology, education, and systems biology. He holds two bachelors, one in history and geography and one in law, and never did a Ph.D. Though less well known in the anglophone world due to the limited availability of English translations of his over 60 books, Morin is renowned in the French-speaking world, Europe, and Latin America."
   },
   {
     "name": "Thomas Vaughan",
@@ -1166,8 +1731,16 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "thomas-vaughan"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg"
+    ],
+    "id": "thomas-vaughan",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Thomas_Vaughan",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Thomas%20Vaughan%20%28philosopher%29",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Thomas%20Vaughan%20%28philosopher%29"
+    },
+    "biography": "Thomas Vaughan may refer to:Thomas Vaughan (footballer), Welsh international footballer\nThomas Vaughan (MP), Member of Parliament for Dover\nThomas Vaughan (philosopher) (1621–1666), Welsh philosopher\nThomas Vaughan (pirate), Irish pirate and privateer who served France\nThomas Vaughan (singer) (1782–1843), English singer\nThomas Vaughan, Welsh soldier, diplomat, and chamberlain to the eldest son of King Edward IV\nThomas Vaughan (bodysnatcher) "
   },
   {
     "name": "William Law",
@@ -1184,8 +1757,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "william-law"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/William_Law.jpg/330px-William_Law.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/a/a3/Boehme-Werk.jpg"
+    ],
+    "id": "william-law",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/William_Law",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=William%20Law",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=William%20Law"
+    },
+    "biography": "William Law was a Church of England priest who lost his position at Emmanuel College, Cambridge, when his conscience would not allow him to take the required oath of allegiance to the first Hanoverian monarch, King George I. Previously, William Law had given his allegiance to the House of Stuart and is sometimes considered a second-generation non-juror. Thereafter, Law continued as a simple priest (curate), and when that too became impossible without the required oath, Law taught privately and wrote extensively. His personal integrity, as well as his mystic and theological writing, greatly influenced the evangelistic movement of his day, as well as Enlightenment thinkers such as the writer Samuel Johnson and the historian Edward Gibbon. In 1784, William Wilberforce (1759–1833), the politician, philanthropist, and leader of the movement to stop the slave trade, was deeply touched by reading William Law's book A Serious Call to a Devout and Holy Life (1729). Law's spiritual writings remain in print today."
   },
   {
     "name": "Anna Bonus Kingsford",
@@ -1202,8 +1784,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "anna-bonus-kingsford"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Anna_Kingsford_3.jpg/330px-Anna_Kingsford_3.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/5c/Anna_Kingsford_grave.jpg"
+    ],
+    "id": "anna-bonus-kingsford",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Anna_Kingsford",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Anna%20Bonus%20Kingsford",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Anna%20Bonus%20Kingsford"
+    },
+    "biography": "Anna Kingsford was an English anti-vivisectionist, Theosophist, a proponent of vegetarianism and a women's rights campaigner."
   },
   {
     "name": "Rudolf Steiner",
@@ -1220,8 +1811,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "rudolf-steiner"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Steiner_um_1905.jpg/330px-Steiner_um_1905.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/b/ba/Dornach_-_Goetheanum1a.jpg"
+    ],
+    "id": "rudolf-steiner",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Rudolf_Steiner",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Rudolf%20Steiner",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Rudolf%20Steiner"
+    },
+    "biography": "Rudolf Joseph Lorenz Steiner was an Austrian New Age guru, philosopher, occultist, social reformer, architect, esotericist, and claimed clairvoyant. Steiner gained initial recognition at the end of the nineteenth century as a literary critic and published works including The Philosophy of Freedom. At the beginning of the twentieth century he founded an esoteric spiritual movement, anthroposophy, with roots in German idealist philosophy and theosophy. His teachings are influenced by (Christian) Gnosticism or neognosticism. Many of his ideas are pseudoscientific. He was also prone to pseudohistory."
   },
   {
     "name": "G.I. Gurdjieff",
@@ -1238,8 +1838,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "g-i--gurdjieff"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/3b/Georges_Gurdjieff.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/c/cd/Georges_Gurdjieff.jpg"
+    ],
+    "id": "g-i--gurdjieff",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/George_Gurdjieff",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=G.I.%20Gurdjieff",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=G.I.%20Gurdjieff"
+    },
+    "biography": "George Ivanovich Gurdjieff was a philosopher, mystic, spiritual teacher, composer, and movements teacher. Born in the Russian Empire, he briefly became a citizen of the First Republic of Armenia after its formation in 1918, but fled the impending Red Army invasion of Armenia in 1920, which rendered him stateless. In the early 1920s, he applied for British citizenship, but his application was denied. He then settled in France, where he lived and taught for the rest of his life."
   },
   {
     "name": "Édouard Le Roy",
@@ -1256,8 +1865,16 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "édouard-le-roy"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Albert_Leroy.jpg/330px-Albert_Leroy.jpg"
+    ],
+    "id": "édouard-le-roy",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/%C3%89douard_Le_Roy",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=%C3%89douard%20Le%20Roy",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=%C3%89douard%20Le%20Roy"
+    },
+    "biography": " Édouard Louis Emmanuel Julien Le Roy was a French philosopher and mathematician."
   },
   {
     "name": "Gregory Bateson",
@@ -1274,8 +1891,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "gregory-bateson"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/Arnhein_and_Bateson.jpg/330px-Arnhein_and_Bateson.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/0/00/Complex-adaptive-system.jpg"
+    ],
+    "id": "gregory-bateson",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Gregory_Bateson",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Gregory%20Bateson",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Gregory%20Bateson"
+    },
+    "biography": "Gregory Bateson was an English anthropologist, social scientist, linguist, visual anthropologist, semiotician, and cyberneticist whose work intersected that of many other fields. His writings include Steps to an Ecology of Mind (1972) and Mind and Nature (1979)."
   },
   {
     "name": "Michael Levin",
@@ -1292,8 +1918,16 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "michael-levin"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg"
+    ],
+    "id": "michael-levin",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Michael_Levin",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Michael%20Levin%20%28biologist%29",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Michael%20Levin%20%28biologist%29"
+    },
+    "biography": "Michael Levin may refer to:Michael Levin (philosopher), American philosopher at City College of New York\n\nMichael Levin (biologist), American biologist at Tufts University\nMichael Levin (soldier) (1984–2006), American soldier in the Israel Defense Forces\nMichael Levin Sesega, Samoan born rock musician\nMike Levin, American politician from California\nMike Levin (paediatrician), British professor of paediatrics\nMichael Levine (physician), American physician, scientist and academic"
   },
   {
     "name": "Gerrard Winstanley",
@@ -1310,8 +1944,16 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "gerrard-winstanley"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/7/79/Gerrard_Winstanley_memorial_-_geograph_6433963.jpg"
+    ],
+    "id": "gerrard-winstanley",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Gerrard_Winstanley",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Gerrard%20Winstanley",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Gerrard%20Winstanley"
+    },
+    "biography": "Gerrard Winstanley was an English Protestant religious reformer, political philosopher, and activist during the period of the Commonwealth of England. Winstanley was the leader and one of the founders of the English group known as the True Levellers or Diggers. The group occupied formerly common land that had been privatised by enclosures and dug them over, pulling down hedges and filling in ditches, to plant crops. \"True Levellers\" was the name they used to describe themselves, whereas the term \"Diggers\" was coined by contemporaries."
   },
   {
     "name": "Laurence Clarkson",
@@ -1328,8 +1970,16 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "laurence-clarkson"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg"
+    ],
+    "id": "laurence-clarkson",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Laurence_Clarkson",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Laurence%20Clarkson",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Laurence%20Clarkson"
+    },
+    "biography": "\nLaurence Clarkson, sometimes called Claxton, born in Preston, Lancashire, was an English theologian and accused heretic. He was the most outspoken and notorious of the loose collection of radical Protestants known as the Ranters."
   },
   {
     "name": "Thomas Traherne",
@@ -1346,8 +1996,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "thomas-traherne"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Stained_glass_in_the_cathedral_-_geograph.org.uk_-_615756.jpg/330px-Stained_glass_in_the_cathedral_-_geograph.org.uk_-_615756.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/e/e9/Brasenose_College_from_St_Marys.jpg"
+    ],
+    "id": "thomas-traherne",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Thomas_Traherne",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Thomas%20Traherne",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Thomas%20Traherne"
+    },
+    "biography": "Thomas Traherne was an English poet, Anglican cleric, theologian, and religious writer. The intense, scholarly spirituality in his writings has led to his being commemorated by some parts of the Anglican Communion on 10 October or on 27 September."
   },
   {
     "name": "Louis Claude de Saint-Martin",
@@ -1364,8 +2023,16 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "louis-claude-de-saint-martin"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Louis-claude-saint-martin.gif/330px-Louis-claude-saint-martin.gif"
+    ],
+    "id": "louis-claude-de-saint-martin",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Louis_Claude_de_Saint-Martin",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Louis%20Claude%20de%20Saint-Martin",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Louis%20Claude%20de%20Saint-Martin"
+    },
+    "biography": "Louis Claude de Saint-Martin was a French philosopher, known as le philosophe inconnu, the name under which his works were published. He was an influential Christian mystic whose legacy, together with that of his mentor Martinez de Pasqually, inspired the founding of the Martinist Order."
   },
   {
     "name": "Proclus",
@@ -1382,8 +2049,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "proclus"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/In_primum_Euclidis_elementorum_librum_01.jpg/330px-In_primum_Euclidis_elementorum_librum_01.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/a/ad/Parthenon_from_west.jpg"
+    ],
+    "id": "proclus",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Proclus",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Proclus",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Proclus"
+    },
+    "biography": "Proclus Lycius, called Proclus the Successor, was a Greek Neoplatonist philosopher, one of the last major classical philosophers of late antiquity. He set forth one of the most elaborate and fully developed systems of Neoplatonism and, through later interpreters and translators, exerted an influence on Byzantine philosophy, early Islamic philosophy, scholastic philosophy, and German idealism, especially G. W. F. Hegel, who called Proclus's Platonic Theology \"the true turning point or transition from ancient to modern times, from ancient philosophy to Christianity.\""
   },
   {
     "name": "Iamblichus",
@@ -1400,8 +2076,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "iamblichus"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/8a/Iamblichus.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/a/ad/Plotin.jpg"
+    ],
+    "id": "iamblichus",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Iamblichus",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Iamblichus",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Iamblichus"
+    },
+    "biography": "Iamblichus was a Syrian Arab Neoplatonist philosopher who determined a direction later taken by Neoplatonism. Iamblichus was also the biographer of the Greek mystic, philosopher, and mathematician Pythagoras. In addition to his philosophical contributions, his Protrepticus is important for the study of the sophists because it preserved about ten pages of an otherwise unknown sophist known as the Anonymus Iamblichi."
   },
   {
     "name": "Zosimos of Panopolis",
@@ -1418,8 +2103,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "zosimos-of-panopolis"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Buste_Zosimos.jpg/330px-Buste_Zosimos.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/0/07/HermesTrismegistusCaucHighRes.jpg"
+    ],
+    "id": "zosimos-of-panopolis",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Zosimos_of_Panopolis",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Zosimos%20of%20Panopolis",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Zosimos%20of%20Panopolis"
+    },
+    "biography": "Zosimos of Panopolis was an alchemist and Gnostic mystic. He was born in Panopolis, and likely flourished ca. 300 AD. He wrote the oldest known books on alchemy, which he called \"Cheirokmeta,\" using the Greek word for \"things made by hand.\" Pieces of this work survive in the original Greek language and in translations into Syriac or Arabic. He is one of about 40 authors represented in a compendium of alchemical writings that was probably put together in Constantinople in the 7th or 8th century AD, copies of which exist in manuscripts in Venice and Paris. His fellow Egyptian alchemist Stephen of Alexandria is another."
   },
   {
     "name": "Hermes Trismegistus",
@@ -1436,8 +2130,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "hermes-trismegistus"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Hermes_Trismegistus_Sienna_Cathedral_Mosaic.jpg/330px-Hermes_Trismegistus_Sienna_Cathedral_Mosaic.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/71/Berlin%2C_Pertsch_Persisch_1016_fol_20v_Idris_teaching_in_paradise_crop.jpg"
+    ],
+    "id": "hermes-trismegistus",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Hermes_Trismegistus",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Hermes%20Trismegistus",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Hermes%20Trismegistus"
+    },
+    "biography": "Hermes Trismegistus is a legendary Hellenistic period figure that originated as a syncretic combination of the Greek god Hermes and the Egyptian god Thoth. He is the purported author of the Hermetica, a widely diverse series of ancient and medieval pseudepigraphica that laid the basis of various philosophical systems known as Hermeticism."
   },
   {
     "name": "Henry Darger",
@@ -1454,8 +2157,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "henry-darger"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/en/2/22/Henry_Darger.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/9/98/Daniele_da_Volterra_-_The_Massacre_of_the_Innocents_-_WGA05910.jpg"
+    ],
+    "id": "henry-darger",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Henry_Darger",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Henry%20Darger",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Henry%20Darger"
+    },
+    "biography": "Henry Joseph Darger Jr. was an American janitor and hospital worker who became known after his death for his immense body of art and literature."
   },
   {
     "name": "Madge Gill",
@@ -1472,8 +2184,16 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "madge-gill"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/b/b1/Madge_Gill_nee_Maud_Eades_%28Waltham_Forest_Heritage%29.jpg"
+    ],
+    "id": "madge-gill",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Madge_Gill",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Madge%20Gill",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Madge%20Gill"
+    },
+    "biography": "Madge Gill, was an English outsider and visionary artist."
   },
   {
     "name": "Adolf Wölfli",
@@ -1490,8 +2210,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "adolf-wölfli"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Adolf_Woelfli.jpg/330px-Adolf_Woelfli.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/73/AdolfWolfiPortrait.png"
+    ],
+    "id": "adolf-wölfli",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Adolf_W%C3%B6lfli",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Adolf%20W%C3%B6lfli",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Adolf%20W%C3%B6lfli"
+    },
+    "biography": "Adolf Wölfli was a Swiss visual artist who was one of the first artists to be associated with the Art Brut or outsider art label. He was diagnosed with schizophrenia and spent most of his life confined to the Waldau psychiatric clinic in Bern, where his involvement with art began. He is the creator of a large-scale and extremely complex work that is difficult to categorize. Meticulously numbered, dated and organized in handmade books, his paintings and drawings are accompanied by images, texts, numerical calculations, musical notation and geometric symbols, constituting a multidimensional artistic work consisting of approximately 25.000 pages. His painting is distinguished for its original and highly idiosyncratic use of color, while his compositions are distinguished for their detailed structure and organization.\nHis work is largely autobiographical and deals with a personal mythology, centered on the fictional creation of his alter ego, Saint Adolf."
   },
   {
     "name": "Augustin Lesage",
@@ -1508,8 +2237,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "augustin-lesage"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Augustin_Lesage.png/330px-Augustin_Lesage.png",
+      "https://upload.wikimedia.org/wikipedia/commons/c/c2/LAM_Villeneuve_d%27Ascq_%2848614180332%29.jpg"
+    ],
+    "id": "augustin-lesage",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Augustin_Lesage",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Augustin%20Lesage",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Augustin%20Lesage"
+    },
+    "biography": "Augustin Lesage was a French coal miner who became a painter and artist through the help of what he considered to be spirit voices. His style utilizes patterns and symmetry on a large scale, often accompanied by bright, vibrant colors. He was untrained and is considered an outsider artist, part of Art Brut."
   },
   {
     "name": "Walter Benjamin",
@@ -1526,8 +2264,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "walter-benjamin"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Walter_Benjamin_vers_1928.jpg/330px-Walter_Benjamin_vers_1928.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/c/c3/AdornoHorkheimerHabermasbyJeremyJShapiro2.png"
+    ],
+    "id": "walter-benjamin",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Walter_Benjamin",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Walter%20Benjamin",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Walter%20Benjamin"
+    },
+    "biography": "Walter Bendix Schönflies Benjamin was a German philosopher, cultural critic, media theorist, and essayist. An eclectic thinker who combined elements of German idealism, Jewish mysticism, Western Marxism, and post-Kantianism, he made contributions to the philosophy of history, metaphysics, historical materialism, criticism, aesthetics and had an oblique but overwhelmingly influential impact on the resurrection of the Kabbalah by virtue of his life-long epistolary relationship with Gershom Scholem."
   },
   {
     "name": "Philip K. Dick",
@@ -1544,8 +2291,17 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "philip-k--dick"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Philip_K_Dick_in_early_1960s_Arthur_Knight_%283x4_cropped%29.jpg/330px-Philip_K_Dick_in_early_1960s_Arthur_Knight_%283x4_cropped%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/6/63/2019_-_Press_conferences_-_Day_2_061119SMcC0008_%2849024444378%29.jpg"
+    ],
+    "id": "philip-k--dick",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Philip_K._Dick",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Philip%20K.%20Dick",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Philip%20K.%20Dick"
+    },
+    "biography": "Philip Kindred Dick was an American science fiction short story writer and novelist. He wrote 45 novels and about 121 short stories, most of which appeared in science fiction magazines. His fiction explored varied philosophical and social questions such as the nature of reality, perception, human nature, and identity, and commonly featured characters struggling against alternate realities, illusory environments, monopolistic corporations, drug abuse, authoritarian governments, and altered states of consciousness. He is considered one of the most important figures in 20th-century science fiction."
   },
   {
     "name": "Terence McKenna",
@@ -1562,7 +2318,16 @@
     ],
     "primary_texts": [],
     "hyperobject_vector": "Facet suspended between temporal strata and modal abundance.",
-    "image_pool": [],
-    "id": "terence-mckenna"
+    "image_pool": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Hanna_jon_1999_mckenna_terence.jpg/330px-Hanna_jon_1999_mckenna_terence.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/12/Botanical_Dimensions_ethnobotanical_preserve_in_Hawaii.jpg"
+    ],
+    "id": "terence-mckenna",
+    "references": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Terence_McKenna",
+      "stanford_encyclopedia_of_philosophy": "https://plato.stanford.edu/search/searcher.py?query=Terence%20McKenna",
+      "internet_encyclopedia_of_philosophy": "https://iep.utm.edu/?s=Terence%20McKenna"
+    },
+    "biography": "Terence Kemp McKenna was an American philosopher, ethnobotanist, lecturer, and author who advocated for the responsible use of naturally occurring psychedelic plants and mushrooms. He spoke and wrote about a variety of subjects, including psychedelic drugs, plant-based entheogens, shamanism, metaphysics, alchemy, language, philosophy, culture, technology, ethnomycology, environmentalism, and the theoretical origins of human consciousness. He was called the \"Timothy Leary of the '90s\", \"one of the leading authorities on the ontological foundations of shamanism\", and the \"intellectual voice of rave culture\". Critical reception of Terence McKenna’s work was deeply polarized, with critics accusing him of promoting dangerous ideas and questioning his sanity, while others praised his writing as groundbreaking, humorous, and intellectually provocative."
   }
 ]
